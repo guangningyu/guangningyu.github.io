@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>如何在Unix Console中运行C/C++程序 | Guangning Yu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Way 1:
+If it is a simple single source program:  
+make foo
+where the source file is foo.c or foo.cpp, etc.You don’t even need a makefile. Make has enough built-in rules to build your source file into">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何在Unix Console中运行C/C++程序">
+<meta property="og:url" content="http://guangningyu.com/2014/12/06/how-to-run-c-program-in-unix-console/">
+<meta property="og:site_name" content="Guangning Yu">
+<meta property="og:description" content="Way 1:
+If it is a simple single source program:  
+make foo
+where the source file is foo.c or foo.cpp, etc.You don’t even need a makefile. Make has enough built-in rules to build your source file into">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="如何在Unix Console中运行C/C++程序">
+<meta name="twitter:description" content="Way 1:
+If it is a simple single source program:  
+make foo
+where the source file is foo.c or foo.cpp, etc.You don’t even need a makefile. Make has enough built-in rules to build your source file into">
+
+  
+    <link rel="alternative" href="/atom.xml" title="Guangning Yu" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Guangning Yu</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">A data analyst from Shanghai, China</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://guangningyu.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-how-to-run-c-program-in-unix-console" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/12/06/how-to-run-c-program-in-unix-console/" class="article-date">
+  <time datetime="2014-12-05T16:00:00.000Z" itemprop="datePublished">Dec 6 2014</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      如何在Unix Console中运行C/C++程序
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Way_1:">Way 1:</h3>
+<p>If it is a simple single source program:  </p>
+<pre><code><span class="keyword">make</span> foo
+</code></pre><p>where the source file is foo.c or foo.cpp, etc.<br>You don’t even need a makefile. Make has enough built-in rules to build your source file into an executable of the same name, minus extension.</p>
+<h3 id="Way_2:">Way 2:</h3>
+<pre><code>gcc main.cpp -o main.<span class="keyword">out</span>
+</code></pre><p>where main.ccp is the source file and main.out is the executable file after compiling.  </p>
+<p>Reference:<br><a href="http://stackoverflow.com/questions/221185/how-to-run-c-c-in-a-unix-console-mac-terminal" target="_blank" rel="external">How to run C/C++ in a Unix console/Mac terminal</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://guangningyu.com/2014/12/06/how-to-run-c-program-in-unix-console/" data-id="fnkmsdv2lzn1t7ai" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/01/22/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/11/07/define-imminent-enjoy-life/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Define imminent. Enjoy Life.</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/">GitHub</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python/">Python</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Unix/">Unix</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/GitHub/" style="font-size: 10.00px;">GitHub</a><a href="/tags/Python/" style="font-size: 10.00px;">Python</a><a href="/tags/Unix/" style="font-size: 20.00px;">Unix</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">June 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2015/01/22/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2014/12/06/how-to-run-c-program-in-unix-console/">如何在Unix Console中运行C/C++程序</a>
+          </li>
+        
+          <li>
+            <a href="/2014/11/07/define-imminent-enjoy-life/">Define imminent. Enjoy Life.</a>
+          </li>
+        
+          <li>
+            <a href="/2014/09/14/linux-time-command/">Linux time command - &quot;real&quot;, &quot;user&quot; and &quot;sys&quot;</a>
+          </li>
+        
+          <li>
+            <a href="/2014/08/08/adding-existing-project-to-github/">Adding an existing project to GitHub for Mac</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2015 Guangning Yu<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+
+  </div>
+</body>
+</html>

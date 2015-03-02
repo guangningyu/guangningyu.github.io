@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Guangning Yu | from Shanghai, China</title>
+    <title>如何获取字典中最大值所对应的key | Guangning Yu</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,11 +15,11 @@
     <meta name="description" content="A data analyst">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Guangning Yu | from Shanghai, China">
+    <meta name="twitter:title" content="如何获取字典中最大值所对应的key | Guangning Yu">
     <meta name="twitter:description" content="A data analyst"">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Guangning Yu | from Shanghai, China">
+    <meta property="og:title" content="如何获取字典中最大值所对应的key | Guangning Yu">
     <meta property="og:description" content="A data analyst"">
 
   
@@ -39,7 +39,7 @@
     <link rel="alternate" type="application/rss+xml" title="Guangning Yu" href="/atom.xml">
     
     
-    <link rel="canonical" href="https://guangningyu.com" />
+    <link rel="canonical" href="https://guangningyu.com/2013/06/15/Getting-key-with-maximum-value-in-dictionary/" />
 
     
 </head>
@@ -163,59 +163,54 @@
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-            <div class="main-post-list">
-    
-  <ol class="post-list">
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2013/06/15/Getting-key-with-maximum-value-in-dictionary/" title="link to post.title">如何获取字典中最大值所对应的key</a></h2>
-    <p class="excerpt">
-    
-      问题
-存在一个Python字典stats，其中key是string类型，对应的值是integer类型，如下所示：
-&amp;gt;&amp;gt;&amp;gt; stats
-{&#39;a&#39;:1000, &#39;b&#39;:3000, &#39;c&#39;:100}
-如何获取该字典中的最大值所对应的key？
-方法1
-&amp;gt;&amp;gt;&amp;gt; max(stats, key=stats.get)
-&#39;b&#39;
-方法2
-&amp;gt;&amp;gt;&amp;gt; max(stats, key=lambda x:stats[x[0]])
-&#39;b&#39;
-参考：[1] Getting key
-     &hellip;
-    <a class="btn-border-small" href="/2013/06/15/Getting-key-with-maximum-value-in-dictionary/">Keep reading</a>
-      </p>
-      <div class="post-list__meta"><time datetime="2013-06-15T15:24:56.000Z" class="post-list__meta--date date">Jun 15 2013</time> <span class="post-list__meta--tags tags">&nbsp;
+            <article class="post-container post-container--single">
+
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2013-06-15T15:24:56.000Z" class="post-list__meta--date date">Jun 15 2013</time>  <span class="post-meta__tags tags">&nbsp;
   <a class="-link" href="/tags/Python/">Python</a>
-</span></div>
+</span>
+      <!--<span class="post-meta__author author"><img src="{{author.image}}" alt="profile image for {{author.name}}" class="avatar post-meta__avatar" /> by {{author.name}}</span>-->
+    </div>
+    <h1 class="post-title">如何获取字典中最大值所对应的key</h1>
+  </header>
 
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2013/05/13/collections-defaultdict/" title="link to post.title">How does collections.defaultdict work?</a></h2>
-    <p class="excerpt">
-    
-      Usually, a Python dictionary throws a KeyError if you try to get an item with a key that is not currently in the dictionary. The defaultdict in contrast will simply create any items that you try to access (provided of course they do not exist yet). T
-     &hellip;
-    <a class="btn-border-small" href="/2013/05/13/collections-defaultdict/">Keep reading</a>
-      </p>
-      <div class="post-list__meta"><time datetime="2013-05-12T16:00:00.000Z" class="post-list__meta--date date">May 13 2013</time> <span class="post-list__meta--tags tags">&nbsp;
-  <a class="-link" href="/tags/Python/">Python</a>
-</span></div>
+  <section class="post">
+    <h3 id="问题">问题</h3>
+<p>存在一个Python字典stats，其中key是string类型，对应的值是integer类型，如下所示：</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> stats</span>
+{<span class="string">'a'</span><span class="symbol">:</span><span class="number">1000</span>, <span class="string">'b'</span><span class="symbol">:</span><span class="number">3000</span>, <span class="string">'c'</span><span class="symbol">:</span><span class="number">100</span>}
+</code></pre><p>如何获取该字典中的最大值所对应的key？</p>
+<h3 id="方法1">方法1</h3>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(stats, key=stats.get)</span>
+<span class="string">'b'</span>
+</code></pre><h3 id="方法2">方法2</h3>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(stats, key=lambda <span class="symbol">x:</span>stats[x[<span class="number">0</span>]])</span>
+<span class="string">'b'</span>
+</code></pre><p>参考：<br>[1] <a href="http://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary" target="_blank" rel="external">Getting key with maximum value in dictionary?</a></p>
 
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-  </ol>
+  </section>
+
+</article>
 
 
+<section class="post-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'guangningyu'; // required: replace example with your forum shortname
+      
 
-</div>
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
 
 
 

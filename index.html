@@ -69,11 +69,12 @@
           <div>
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="/#blog" class="blog-button">Blog</a></li>
             
-              <li class="navigation__item"><a href="/skills">Talent Tree</a></li>
+              <li class="navigation__item"><a href="/input">Input</a></li>
             
-              <li class="navigation__item"><a href="/projects">Projects</a></li>
+              <li class="navigation__item"><a href="/storage">Storage</a></li>
+            
+              <li class="navigation__item"><a href="/output">Output</a></li>
             
             </ul>
           </nav>
@@ -332,25 +333,22 @@ When you come to metaphorical “fork in the road”, you generally have two opt
   
     
     <li>
-      <h2 class="post-list__post-title post-title"><a href="/2013/06/15/Getting-key-with-maximum-value-in-dictionary/" title="link to post.title">如何获取字典中最大值所对应的key</a></h2>
+      <h2 class="post-list__post-title post-title"><a href="/2013/06/10/python-max-function-using-lambda-expression/" title="link to post.title">从max函数到lambda表达式</a></h2>
     <p class="excerpt">
     
-      问题
-存在一个Python字典stats，其中key是string类型，对应的值是integer类型，如下所示：
-&amp;gt;&amp;gt;&amp;gt; stats
-{&#39;a&#39;:1000, &#39;b&#39;:3000, &#39;c&#39;:100}
-如何获取该字典中的最大值所对应的key？
-方法1
-&amp;gt;&amp;gt;&amp;gt; max(stats, key=stats.get)
-&#39;b&#39;
-方法2
-&amp;gt;&amp;gt;&amp;gt; max(stats, key=lambda x:stats[x[0]])
-&#39;b&#39;
-参考：[1] Getting key
+      1. 浅谈max函数
+max函数的作用是什么？
+max(a, b, c, ...[, key=func]) -&amp;gt; value
+当含有多个参数时，max函数返回其中最大的参数；当含有可迭代的单一参数时，max返回其中最大的一项。
+一个简单的例子
+下面的max函数实现了在players列表中，返回对应最大totalScore值的player实例的功能。
+def winner():
+    w = max(players, key=lambda p:p.totalScore)
+key参数的作用是
      &hellip;
-    <a class="btn-border-small" href="/2013/06/15/Getting-key-with-maximum-value-in-dictionary/">Keep reading</a>
+    <a class="btn-border-small" href="/2013/06/10/python-max-function-using-lambda-expression/">Keep reading</a>
       </p>
-      <div class="post-list__meta"><time datetime="2013-06-15T15:24:56.000Z" class="post-list__meta--date date">Jun 15 2013</time> <span class="post-list__meta--tags tags">&nbsp;
+      <div class="post-list__meta"><time datetime="2013-06-09T16:00:00.000Z" class="post-list__meta--date date">Jun 10 2013</time> <span class="post-list__meta--tags tags">&nbsp;
   <a class="-link" href="/tags/Python/">Python</a>
 </span></div>
 

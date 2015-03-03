@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Linux time command - &quot;real&quot;, &quot;user&quot; and &quot;sys&quot; | Guangning Yu</title>
+    <title>从max函数到lambda表达式 | Guangning Yu</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,11 +15,11 @@
     <meta name="description" content="A data analyst">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Linux time command - &quot;real&quot;, &quot;user&quot; and &quot;sys&quot; | Guangning Yu">
+    <meta name="twitter:title" content="从max函数到lambda表达式 | Guangning Yu">
     <meta name="twitter:description" content="A data analyst"">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Linux time command - &quot;real&quot;, &quot;user&quot; and &quot;sys&quot; | Guangning Yu">
+    <meta property="og:title" content="从max函数到lambda表达式 | Guangning Yu">
     <meta property="og:description" content="A data analyst"">
 
   
@@ -39,7 +39,7 @@
     <link rel="alternate" type="application/rss+xml" title="Guangning Yu" href="/atom.xml">
     
     
-    <link rel="canonical" href="https://guangningyu.com/2014/09/14/linux-time-command/" />
+    <link rel="canonical" href="https://guangningyu.com/2013/06/10/python-max-function-using-lambda-expression/" />
 
     
 </head>
@@ -168,27 +168,61 @@
 
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="2014-09-13T16:00:00.000Z" class="post-list__meta--date date">Sep 14 2014</time>  <span class="post-meta__tags tags">&nbsp;
-  <a class="-link" href="/tags/Unix/">Unix</a>
+      <time datetime="2013-06-09T16:00:00.000Z" class="post-list__meta--date date">Jun 10 2013</time>  <span class="post-meta__tags tags">&nbsp;
+  <a class="-link" href="/tags/Python/">Python</a>
 </span>
       <!--<span class="post-meta__author author"><img src="{{author.image}}" alt="profile image for {{author.name}}" class="avatar post-meta__avatar" /> by {{author.name}}</span>-->
     </div>
-    <h1 class="post-title">Linux time command - &quot;real&quot;, &quot;user&quot; and &quot;sys&quot;</h1>
+    <h1 class="post-title">从max函数到lambda表达式</h1>
   </header>
 
   <section class="post">
-    <h3 id="Introduction">Introduction</h3>
-<p><code>Real</code> is the wall clock time. This is the actual elapsed time, including time slices used by other process and time the process spends blocked (for example if it is waiting for I/O to complete). </p>
-<p><code>User</code> is the amount of CPU time spent in user-mode (outside the kernel) within the process. This is only actual CPU time used in executing the process. Other processes and time the process spends blocked do not count towards this figure.</p>
-<p><code>Sys</code> is the amount of CPU time spent in the kernal within the process. This means executing CPU time spent in system calls within the kernel, as opposed to library code, which is still running in user-space. Like <code>User</code>, this is only CPU time used by the process. </p>
-<h3 id="Note">Note</h3>
-<p><code>User</code>+<code>Sys</code> will tell you how much actual CPU time your process used. Note that this is across all CPUs, so if the process has multiple threads it could potentially exceed the wall clock time reported by <code>Real</code>.</p>
-<p>Besides, in the output these figures include the <code>User</code> and <code>Sys</code> time of all child processes (and their descendants) as well when they could have been collected, although the underlying system calls return the statistics for the process and its children separately.</p>
-<h3 id="See_Also:_a_brief_primer_on_Kernel_vs-_User_mode">See Also: a brief primer on Kernel vs. User mode</h3>
-<p><strong>On Unix or any protected-memory operating system, ‘Kernel’ or ‘Supervisor’ mode refers to a privileged mode that the CPU can operate in.</strong> Certain privileged actions that could affect security or stability can only be done when the CPU is operating in this mode; these actions are not available to application code. An example of such an action might be to manipulate the MMU to gain access to the address space of another process. Normally, ‘User’ mode cannot do this. In this case, the shared memory is explicitly requested from the Kernel through a secure mechanism and both process have to explicitly attach to it in order to use it.</p>
-<p>In order to switch to Kernel mode, you have to issue a specific instruction (often called a <code>trap</code>) and runs code from a specific location held in a jump table. For security reasons, you cannot switch to Kernel mode and execute arbitrary code - the traps are managed through a table of addresses that cannot be written to unless the CPU is running in supervisor mode.</p>
-<p>There are things that your code cannot do from <code>user mode</code> - things like allocating memory or accessing hardware (HDD, network, etc.). These are under the supervision of the Kernel, and it alone can do them. Some operations that you do (like malloc or fread/fwrite) will invoke these kernel functions and that then will count as <code>Sys</code> time. Unfortunately it’s not as simple as “every call to malloc will be counted in <code>Sys</code> time”. The call to malloc will do some processing of its own (still counted in <code>User</code> time) and then somewhere along the way call the function in Kernel (counted as <code>Sys</code> time). After returning from the Kernel call, there will be some more time in <code>User</code> and then malloc will return to your code. <strong>As for when the switch happens, and how much of it is spent in Kernel mode… you cannot say.</strong> It depends on the implementation of the library. Also, other seemingly innocent functions might also use malloc and the like in the background, which will again have some time in <code>Sys</code> then.</p>
-<p>Reference:<br>[1] <a href="http://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1" target="_blank" rel="external">What do ‘real’, ‘user’ and ‘sys’ mean in the output of time(1)?</a></p>
+    <h3 id="1-_浅谈max函数">1. 浅谈max函数</h3>
+<p><strong>max函数的作用是什么？</strong></p>
+<pre><code>max(a, b, c, <span class="keyword">...</span>[, key=func]) -&gt; value
+</code></pre><p>当含有多个参数时，<code>max</code>函数返回其中最大的参数；<br>当含有可迭代的单一参数时，<code>max</code>返回其中最大的一项。</p>
+<p><strong>一个简单的例子</strong></p>
+<p>下面的<code>max</code>函数实现了在players列表中，返回对应最大totalScore值的player实例的功能。</p>
+<pre><code><span class="function"><span class="keyword">def</span> <span class="title">winner</span><span class="params">()</span>:</span>
+    w = max(players, key=<span class="keyword">lambda</span> p:p.totalScore)
+</code></pre><p><strong>key参数的作用是什么？</strong></p>
+<p>在2.x版本中，<code>max</code>函数有一套默认的基于对象类型的<a href="https://docs.python.org/2/reference/expressions.html#not-in" target="_blank" rel="external">比较方法</a>，例如string类型总是大于integer类型。</p>
+<p>如果在比较之前需要修改对象，或者是仅比较对象特定的属性或者索引，那么就要用到<code>key</code>参数了。</p>
+<h3 id="2-_…lambda又是什么？">2. …lambda又是什么？</h3>
+<p><strong><code>lambda</code>表达式本质上是一个匿名函数。</strong></p>
+<p><code>lambda p:p.totalScore</code>等价于</p>
+<pre><code><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">(p)</span>:</span>
+    <span class="keyword">return</span> p.totoalScore
+</code></pre><p>于是例子中的<code>max</code>函数可以理解为</p>
+<pre><code><span class="built_in">max</span>(players, key=<span class="func"><span class="keyword">func</span></span>)
+</code></pre><p>对于<code>max</code>函数而言，<code>key</code>后面接的应该是一个表达式，而非一个定义好的函数，所以这里只能选择使用lambda表达式。</p>
+<h3 id="3-_几个例子">3. 几个例子</h3>
+<p><strong>例1</strong></p>
+<p>下面的列表中包含若干以string格式存储的数值，我们需要找出其中数值最大的一项。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> lis = [<span class="string">'1'</span>, <span class="string">'100'</span>, <span class="string">'111'</span>, <span class="string">'2'</span>]</span>
+</code></pre><p>如果我们直接使用<code>max</code>函数，<code>max</code>函数会默认按照字母序进行比较，所以得到的结果是’2’，并不是我们想要的结果。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(lis)</span>
+<span class="string">'2'</span>
+</code></pre><p>所以在比较之前，我们需要使用<code>lambda</code>表达式进行简单的类型转换，这样我们就可以得到正确的结果了。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(lis, key=lambda <span class="symbol">x:</span>int(x))</span>
+<span class="string">'111'</span>
+</code></pre><p><strong>例2</strong></p>
+<p>用<code>max</code>函数比较包含一组列表的列表（a list of lists），如下所示。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> lis = [[<span class="number">1</span>,<span class="string">'a'</span>], [<span class="number">3</span>,<span class="string">'c'</span>], [<span class="number">4</span>,<span class="string">'e'</span>], [-<span class="number">1</span>,<span class="string">'z'</span>]]</span>
+</code></pre><p>在这种情况下，<code>max</code>函数默认按顺序依次比较子列表中的每一项，来判断大小——如果第一项相同，再比较第二项，以此类推。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(list)</span>
+[<span class="number">4</span>, <span class="string">'e'</span>]
+</code></pre><p>如果需要直接比较第二项来判断大小的话，就需要用到<code>lambda</code>表达式了，如下所示。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(lis, key=lambda <span class="symbol">x:</span>x[<span class="number">1</span>])</span>
+[-<span class="number">1</span>, <span class="string">'z'</span>]
+</code></pre><p><strong>例3</strong></p>
+<p>存在一个Python字典stats，其中key是string类型，对应的值是integer类型，如下所示：</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> stats</span>
+{<span class="string">'a'</span><span class="symbol">:</span><span class="number">1000</span>, <span class="string">'b'</span><span class="symbol">:</span><span class="number">3000</span>, <span class="string">'c'</span><span class="symbol">:</span><span class="number">100</span>}
+</code></pre><p>通过<code>lambda</code>表达式可以获取该字典中的最大值所对应的key，如下所示。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(stats, key=lambda <span class="symbol">x:</span>stats[x[<span class="number">0</span>]])</span>
+<span class="string">'b'</span>
+</code></pre><p>参考资料：<br>[1] <a href="http://stackoverflow.com/questions/18296755/python-max-function-using-key-and-lambda-expression" target="_blank" rel="external">Python max function using ‘key’ and lambda expression</a><br>[2] <a href="http://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary" target="_blank" rel="external">Getting key with maximum value in dictionary?</a></p>
 
   </section>
 

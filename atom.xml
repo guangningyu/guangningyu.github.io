@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Guangning Yu]]></title>
+  <subtitle><![CDATA[from Shanghai, China]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="https://guangningyu.com/"/>
+  <updated>2015-03-03T13:47:17.068Z</updated>
+  <id>https://guangningyu.com/</id>
+  
+  <author>
+    <name><![CDATA[Guangning Yu]]></name>
+    <email><![CDATA[yuguangning@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[人员搜寻信息交换格式(People Finder Interchange Format)]]></title>
+    <link href="https://guangningyu.com/2015/03/02/People-Finder-Interchange-Format/"/>
+    <id>https://guangningyu.com/2015/03/02/People-Finder-Interchange-Format/</id>
+    <published>2015-03-01T16:25:11.000Z</published>
+    <updated>2015-03-02T00:05:27.000Z</updated>
+    <content type="html"><![CDATA[<p>人员搜寻信息交换格式（People Finder Interchange Format, 简称PFIF）是一种被广泛使用的关于失踪人员信息的开源数据标准。<br>PFIF的设计初衷是使得政府、救济组织以及其它幸存者登记机构之间能够分享信息，帮助人们在灾难过后寻找他们的亲友。</p>
+<h2 id="综述">综述</h2>
+<h2 id="历史">历史</h2>
+<h2 id="应用">应用</h2>
+<p>参考资料：<br>[1] <a href="http://en.wikipedia.org/wiki/People_Finder_Interchange_Format" target="_blank" rel="external">Wikipedia</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>人员搜寻信息交换格式（People Finder Interchange Format, 简称PFIF）是一种被广泛使用的关于失踪人员信息的开源数据标准。<br>PFIF的设计初衷是使得政府、救济组织以及其它幸存者登记机构之间能够分享信息，帮助人们在灾难过后寻找他们的亲友。]]>
+    </summary>
+    
+      <category term="PeopleFinder" scheme="https://guangningyu.com/tags/PeopleFinder/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[如何在Unix Console中运行C/C++程序]]></title>
+    <link href="https://guangningyu.com/2014/12/06/how-to-run-c-program-in-unix-console/"/>
+    <id>https://guangningyu.com/2014/12/06/how-to-run-c-program-in-unix-console/</id>
+    <published>2014-12-05T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="Way_1:">Way 1:</h3>
+<p>If it is a simple single source program:  </p>
+<pre><code><span class="keyword">make</span> foo
+</code></pre><p>where the source file is foo.c or foo.cpp, etc.<br>You don’t even need a makefile. Make has enough built-in rules to build your source file into an executable of the same name, minus extension.</p>
+<h3 id="Way_2:">Way 2:</h3>
+<pre><code>gcc main.cpp -o main.<span class="keyword">out</span>
+</code></pre><p>where main.ccp is the source file and main.out is the executable file after compiling.  </p>
+<p>Reference:<br><a href="http://stackoverflow.com/questions/221185/how-to-run-c-c-in-a-unix-console-mac-terminal" target="_blank" rel="external">How to run C/C++ in a Unix console/Mac terminal</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="Way_1:">Way 1:</h3>
+<p>If it is a simple single source program:  </p>
+<pre><code><span class="keyword">make</span> foo
+</code></pre>]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Define imminent. Enjoy Life.]]></title>
+    <link href="https://guangningyu.com/2014/11/07/define-imminent-enjoy-life/"/>
+    <id>https://guangningyu.com/2014/11/07/define-imminent-enjoy-life/</id>
+    <published>2014-11-06T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<p>This is one of the most inspiring posts that I’ve ever read this year. I truly hope that I can live my life as fully and without regret as him - </p>
+<blockquote>
+<p>I’m 99 - will be 100 in 7 months. I live independently in my home. I hear ok with aids, see 20/20 - drive nite/day. I was married 70 years to the love of my life - lost her 7 years ago. I have great children and their wonderful families, but all live in different parts of the country. I’m an active member of several organizations, like to read (currently Thomas Picketty’s Capital in the Twenty-First Century and my favorite magazine, The Economist). I had a girl friend, a very lovely lady (only 90) I met 3 years ago. She just passed away. Is death imminent? Define imminent. Enjoy life.</p>
+</blockquote>
+<p>His name is Ned Broyles. There’s a video about him on <a href="https://www.youtube.com/watch?v=Cbf_eHThZ6I" target="_blank" rel="external">YouTube</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>This is one of the most inspiring posts that I’ve ever read this year. I truly hope that I can live my life as fully and without regret a]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Linux time command - "real", "user" and "sys"]]></title>
+    <link href="https://guangningyu.com/2014/09/14/linux-time-command/"/>
+    <id>https://guangningyu.com/2014/09/14/linux-time-command/</id>
+    <published>2014-09-13T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="Introduction">Introduction</h3>
+<p><code>Real</code> is the wall clock time. This is the actual elapsed time, including time slices used by other process and time the process spends blocked (for example if it is waiting for I/O to complete). </p>
+<p><code>User</code> is the amount of CPU time spent in user-mode (outside the kernel) within the process. This is only actual CPU time used in executing the process. Other processes and time the process spends blocked do not count towards this figure.</p>
+<p><code>Sys</code> is the amount of CPU time spent in the kernal within the process. This means executing CPU time spent in system calls within the kernel, as opposed to library code, which is still running in user-space. Like <code>User</code>, this is only CPU time used by the process. </p>
+<h3 id="Note">Note</h3>
+<p><code>User</code>+<code>Sys</code> will tell you how much actual CPU time your process used. Note that this is across all CPUs, so if the process has multiple threads it could potentially exceed the wall clock time reported by <code>Real</code>.</p>
+<p>Besides, in the output these figures include the <code>User</code> and <code>Sys</code> time of all child processes (and their descendants) as well when they could have been collected, although the underlying system calls return the statistics for the process and its children separately.</p>
+<h3 id="See_Also:_a_brief_primer_on_Kernel_vs-_User_mode">See Also: a brief primer on Kernel vs. User mode</h3>
+<p><strong>On Unix or any protected-memory operating system, ‘Kernel’ or ‘Supervisor’ mode refers to a privileged mode that the CPU can operate in.</strong> Certain privileged actions that could affect security or stability can only be done when the CPU is operating in this mode; these actions are not available to application code. An example of such an action might be to manipulate the MMU to gain access to the address space of another process. Normally, ‘User’ mode cannot do this. In this case, the shared memory is explicitly requested from the Kernel through a secure mechanism and both process have to explicitly attach to it in order to use it.</p>
+<p>In order to switch to Kernel mode, you have to issue a specific instruction (often called a <code>trap</code>) and runs code from a specific location held in a jump table. For security reasons, you cannot switch to Kernel mode and execute arbitrary code - the traps are managed through a table of addresses that cannot be written to unless the CPU is running in supervisor mode.</p>
+<p>There are things that your code cannot do from <code>user mode</code> - things like allocating memory or accessing hardware (HDD, network, etc.). These are under the supervision of the Kernel, and it alone can do them. Some operations that you do (like malloc or fread/fwrite) will invoke these kernel functions and that then will count as <code>Sys</code> time. Unfortunately it’s not as simple as “every call to malloc will be counted in <code>Sys</code> time”. The call to malloc will do some processing of its own (still counted in <code>User</code> time) and then somewhere along the way call the function in Kernel (counted as <code>Sys</code> time). After returning from the Kernel call, there will be some more time in <code>User</code> and then malloc will return to your code. <strong>As for when the switch happens, and how much of it is spent in Kernel mode… you cannot say.</strong> It depends on the implementation of the library. Also, other seemingly innocent functions might also use malloc and the like in the background, which will again have some time in <code>Sys</code> then.</p>
+<p>Reference:<br>[1] <a href="http://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1" target="_blank" rel="external">What do ‘real’, ‘user’ and ‘sys’ mean in the output of time(1)?</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="Introduction">Introduction</h3>
+<p><code>Real</code> is the wall clock time. This is the actual elapsed time, including time slices ]]>
+    </summary>
+    
+      <category term="Unix" scheme="https://guangningyu.com/tags/Unix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Adding an existing project to GitHub for Mac]]></title>
+    <link href="https://guangningyu.com/2014/08/08/adding-existing-project-to-github/"/>
+    <id>https://guangningyu.com/2014/08/08/adding-existing-project-to-github/</id>
+    <published>2014-08-07T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<ol>
+<li><p><a href="https://help.github.com/articles/creating-a-new-repository/" target="_blank" rel="external">Create a new repository</a> on GitHub. <strong>Do not initialize the new repository with a README file.</strong></p>
+</li>
+<li><p>In Terminal, change the current working directory to your local project.</p>
+</li>
+<li><p>Initialize the local directory as a Git repository.  </p>
+</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>git init</div></pre></td></tr></table></figure>
+
+
+<ol>
+<li>Add the files in your new local repository. This stages them for the first commit.</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git add .</div></pre></td></tr></table></figure>
+
+<ol>
+<li>Commit the files that you’ve staged in your local repository.</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>git commit -m <span class="string">'First Commit'</span></div></pre></td></tr></table></figure>
+
+<ol>
+<li><p>In your GitHub repository, in the right sidebar, copy the remote repository URL.</p>
+</li>
+<li><p>In terminal, add the URL for the remote repository where your local repository will be pushed.</p>
+</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Sets the new remote</span></div><div class="line">$ git remote <span class="built_in">add</span> origin &lt;remote repository <span class="built_in">URL</span>&gt;</div></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Verifies the new remote URL</span></div><div class="line"><span class="variable">$ </span>git remote -v</div></pre></td></tr></table></figure>
+
+<ol>
+<li>Push the changes in your local repository to GitHub.</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Pushes the changes in your local repository up to the remote repository you specified as the origin</span></div><div class="line">$ git <span class="keyword">push</span> origin master</div></pre></td></tr></table></figure>
+
+<p>Source: <a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/" target="_blank" rel="external">GitHub Help</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ol>
+<li><p><a href="https://help.github.com/articles/creating-a-new-repository/" target="_blank" rel="external">Create a new repository</a>]]>
+    </summary>
+    
+      <category term="GitHub" scheme="https://guangningyu.com/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Git Tutorial Notes]]></title>
+    <link href="https://guangningyu.com/2014/08/01/git-tutorials/"/>
+    <id>https://guangningyu.com/2014/08/01/git-tutorials/</id>
+    <published>2014-07-31T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="1-_git_init">1. git init</h1>
+<p>The <code>git init</code> command creates a new Git repository. Most of the other Git commands are not available outside of an initialized repository, so this is usually the first command you’ll run in a new project.  </p>
+<p>Executing <code>git init</code> creates a .git subdirectory in the project root, which contains all of the necessary metadata for the repo. Aside from the .git directory, an existing project remains unaltered - unlike SVN, Git doesn’t require a .git folder in every subdirectory.</p>
+<h3 id="Example">Example</h3>
+<pre><code> ssh <span class="tag">&lt;<span class="title">user</span>&gt;</span>@<span class="tag">&lt;<span class="title">host</span>&gt;</span>
+ cd path/above/repo
+ git init
+</code></pre><h1 id="2-_git_clone">2. git clone</h1>
+<p>The <code>git clone</code> command copies an existing Git repository. It is sort of like <code>svn checkout</code>, except the “working copy” is a full-fledged Git repository - it has its own history, manages its own files, and is a completely isolated environment from the original repository.  </p>
+<p>If a project has already been set up in a central repository, the <code>git clone</code> command is the most common way for users to obtain a development copy. Like <code>git init</code>, cloning is generally a one-time operation - once a developer has obtained a working copy, all version control operations and collaborations are managed through their local repository.  </p>
+<h3 id="Example-1">Example</h3>
+<pre><code><span class="input"><span class="prompt">git clone &lt;repo&gt;</span> &lt;derectory&gt;</span>
+</code></pre><p>Unlike SVN, GIt makes no distinction between the working copy and the central repository - they are all full-fledged Git repositories. This makes collaboratin with Git fundamentally different than with SVN. Whereas SVN depends on the relationship between the central repository and the working copy, Git’s collaboration is based on <strong>repository-to-repository interaction</strong>. Instead of checking a working copy into SVN’s central repository, you <code>push</code> or <code>pull</code> commits from one repository to another.</p>
+<h1 id="3-_git_config">3. git config</h1>
+<p>The <code>git config</code> command lets you configure your Git installation (or an individual repository) from the command line. This command can define everything from user info to perferences to the behavior of a repository.  </p>
+<h3 id="Example-2">Example</h3>
+<pre><code>git config --<span class="keyword">global</span> user.name &lt;name&gt;
+git config --<span class="keyword">global</span> user.email &lt;email&gt;
+git config --<span class="keyword">global</span> <span class="keyword">alias</span>.&lt;<span class="keyword">alias</span>-name&gt; &lt;git-command&gt;
+git config --<span class="keyword">system</span> core.<span class="keyword">editor</span> &lt;<span class="keyword">editor</span>&gt;
+git config --<span class="keyword">global</span> --edit
+</code></pre><p>Git stores configuration options in three separate files, which lets you scope options to individual repositories, users, or the entire system:</p>
+<ul>
+<li><repo>/.git/config - this is repository-specific settings</repo></li>
+<li>~/.gitconfig - this is user-specific settings and where options set with the —global flag are stored.</li>
+<li>$(prefix)/etc/gitconig - this is system-wide settings.  </li>
+</ul>
+<h1 id="4-_git_add">4. git add</h1>
+<p>The <code>git add</code> command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, <code>git add</code> doesn’t really affect the repository in any significant way - changes are not actually recorded until you run <code>git commit</code>.</p>
+<h3 id="Example-3">Example</h3>
+<pre><code># Stage <span class="keyword">all</span> <span class="keyword">changes</span> in &lt;<span class="keyword">file</span>&gt; <span class="keyword">for</span> the <span class="keyword">next</span> commit
+git <span class="built_in">add</span> &lt;<span class="keyword">file</span>&gt;
+
+# Stage <span class="keyword">all</span> <span class="keyword">changes</span> in &lt;directory&gt; <span class="keyword">for</span> the <span class="keyword">next</span> commit
+git <span class="built_in">add</span> &lt;directory&gt;
+</code></pre><p>The <code>git add</code> command should not be confused with <code>svn add</code>, which adds a file to the repository. Instead, <code>git add</code> works on the more abstract level of changes. This means that <code>git add</code> needs to be called every time you alter a file, whereas <code>svn add</code> only needs to be called once for each file. It may sound redundant, but this workflow makes it much easier to keep a project organized.</p>
+<p><strong>The staging area</strong> is one of Git’s more unique features. It helps to think of it as a buffer between the working directory and the project history. Instead of committing all of the changes you’ve made since the last commit, the stage lets you group related changes into highly focused snapshots before actually committing it to the project history. This means you can make all sorts of edits to unrelated files, then go back and split them up into logical commits by adding related changes to the stage and commit them piece-by-piece.  </p>
+<h1 id="5-_git_commit">5. git commit</h1>
+<p>The <code>git commit</code> command commits the staged snapshot to the project history. Commited snapshots can be thought of as “safe” versions of a project - Git will never change them unless you explicitly ask it to. Along with <code>git add</code>, this is one of the most important Git commands.  </p>
+<p>While they share the same name, this command is nothing like <code>svn commit</code>. Snapshots are commited to the local repository, and this requires absolutely no interaction with other Git repositories.</p>
+<h3 id="Example-4">Example</h3>
+<pre><code># <span class="operator"><span class="keyword">Commit</span> the staged <span class="keyword">snapshot</span> <span class="keyword">and</span> <span class="keyword">use</span> &lt;message&gt; <span class="keyword">as</span> the <span class="keyword">commit</span> message
+git <span class="keyword">commit</span> -m <span class="string">"&lt;message&gt;"</span>
+
+# <span class="keyword">Commit</span> a <span class="keyword">snapshot</span> <span class="keyword">of</span> <span class="keyword">all</span> cahnges <span class="keyword">in</span> the working directory
+git <span class="keyword">commit</span> -a</span>
+</code></pre><p>Aside from the practical distinctions between SVN and Git, their underlying implementation also follow entirely divergent design philosophies. Whereas SVN tracks <strong>differencies</strong> of a file, Git’s version control model is based on <strong>snapshots</strong>. For example, an SVN commit consists of a difference compared to the original file added to the repository. Git, on the other hand, records the entire contents of each file in every commit.</p>
+<h1 id="6-_git_status">6. git status</h1>
+<p>The <code>git status</code> command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.</p>
+<h3 id="Example-5">Example</h3>
+<pre><code><span class="title">git</span> status
+</code></pre><p>Git lets you completely ignore by placing paths in a special file called .gitignore. Any files that you’d like to ignore should be included on a separate line, and the * symbol can be used as a wildcard.  </p>
+<p>For example, adding the following to a .gitignore file in your project root will prevent complied Python modules from appearing in <code>git status</code>:  </p>
+<pre><code><span class="keyword">*</span>.pyc
+</code></pre><h1 id="7-_git_log">7. git log</h1>
+<p>The <code>git log</code> command displays committed snapshots. It lets you list the project history, filter it, and search for specific changes.</p>
+<h3 id="Example-6">Example</h3>
+<pre><code># Display the entire <span class="operator"><span class="keyword">commit</span> history <span class="keyword">using</span> the <span class="keyword">default</span> <span class="keyword">format</span>
+git <span class="keyword">log</span>
+
+# <span class="keyword">Limit</span> the <span class="built_in">number</span> <span class="keyword">of</span> commits <span class="keyword">by</span> &lt;<span class="keyword">limit</span>&gt;
+git <span class="keyword">log</span> -n &lt;<span class="keyword">limit</span>&gt;
+
+# Condense <span class="keyword">each</span> <span class="keyword">commit</span> <span class="keyword">to</span> a single line
+git <span class="keyword">log</span> <span class="comment">--oneline</span>
+
+# Display the patch representing <span class="keyword">each</span> <span class="keyword">commit</span>, which <span class="keyword">is</span> the most detailed <span class="keyword">view</span>
+git <span class="keyword">log</span> -p</span>
+</code></pre><h1 id="8-_git_checkout">8. git checkout</h1>
+<p>The <code>git checkout</code> command serves three distinct functions: checking out files, checking out commits, and checking out branches.  </p>
+<p>Checking out a commit makes the entire working directory match that commit. This can be used to view an old state of your project without altering your current state in any way. Checking out a file lets you see an old version of that particular file, leaving the rest of your working directory untouched.</p>
+<h3 id="Example-7">Example</h3>
+<pre><code><span class="comment"># Return to the master branch</span>
+git checkout master
+
+<span class="comment"># Check out a previous version of a file</span>
+git checkout <span class="variable">&lt;commit&gt;</span> <span class="variable">&lt;file&gt;</span>
+
+<span class="comment"># Update all files in the working directory to match the specified commit</span>
+git checkout <span class="variable">&lt;commit&gt;</span>
+</code></pre><p>Checking out an old commit is a read-only operation. It’s impossible to harm your repository while viewing an old version. The “current” state of your project remains untouched in the master branch. During the normal course of development, the HEAD usually points to master or some other local branch, but when you check out a previous commit, HEAD no longer points to a branch - it points directly to a commit.</p>
+<p>On the other hand, checking out an old file affect the current state of your repository. You can re-commit the old version in a new snapshot as you would any other file.</p>
+<h1 id="9-_git_revert">9. git revert</h1>
+<p>The <code>git revert</code> command undoes a committed snapshot. But, instead of removing the commit from the project history, it figures out how to undo the changes introduced by the commit and appends a new commit with the resulting content. This prevents Git from losing history, which is important for the integrity of your version history and for reliable collaboration.</p>
+<h3 id="Example-8">Example</h3>
+<pre><code>git revert <span class="tag">&lt;<span class="title">commit</span>&gt;</span>
+</code></pre><p>Reverting should be used when you want to remove an entire commit from your project history. This can be useful, for example, if you’re tracking down a bug and find that it was introduced by a single commit. Instead of manually going in, fixing it, and committing a new snapshot, you can use <code>git revert</code> to automatically do all of this for you.</p>
+<h1 id="10-_git_reset">10. git reset</h1>
+<p>If <code>git revert</code> is a “safe” way to undo changes, you can think of <code>git reset</code> as the dangerous method. When you undo with <code>git reset</code>, there is no way to retrieve the original copy - it is a permanent undo.   </p>
+<p>Care must be taken when using this tool, as it’s one of the only Git commands that has the potential to lose your work.</p>
+<h3 id="Example-9">Example</h3>
+<pre><code># Remove the specified file from the staging area, but leave the working directory unchanged
+git <span class="operator"><span class="keyword">reset</span> &lt;file&gt;
+
+# <span class="keyword">Reset</span> the staing area <span class="keyword">to</span> <span class="keyword">match</span> the most recent <span class="keyword">commit</span>, but leave the working directory unchanged
+git <span class="keyword">reset</span>
+
+# <span class="keyword">Reset</span> the staging area <span class="keyword">and</span> the working directory <span class="keyword">to</span> <span class="keyword">match</span> the most recent <span class="keyword">commit</span>
+git <span class="keyword">reset</span> <span class="comment">--hard</span>
+
+# <span class="keyword">Reset</span> the staging area <span class="keyword">to</span> &lt;<span class="keyword">commit</span>&gt;, but leave the working directory alone
+git <span class="keyword">reset</span> &lt;<span class="keyword">commit</span>&gt;
+
+# <span class="keyword">Reset</span> <span class="keyword">both</span> staging area <span class="keyword">and</span> working directory <span class="keyword">to</span> &lt;<span class="keyword">commit</span>&gt;
+git <span class="keyword">reset</span> <span class="comment">--hard &lt;commit&gt;</span></span>
+</code></pre><p><strong>Make sure that you’re using <code>git reset &lt;commit&gt;</code> on a local experiment that went wrong - not on published changes. If you need to fix a public commit, the <code>git revert</code> command was designed specifically for this purpose.</strong></p>
+<h1 id="11-_git_clean">11. git clean</h1>
+<p>The <code>git clean</code> command removes untracked files from your working directory. Like an ordinary <code>rm</code> command, <code>git clean</code> is not undoable, so make sure you really want to delete the untracked files before you run it.</p>
+<p>The <code>git clean</code> command is often executed in conjunction with <code>git reset --hard</code>. Remember that resetting only affects tracked files, so a separate command is required for cleaning up untracked ones. Combined, these two commands let you return the working directory to the exact state of a particular commit.</p>
+<h3 id="Example-10">Example</h3>
+<pre><code># Display which <span class="keyword">files</span> are going <span class="keyword">to</span> <span class="keyword">be</span> removed without actually doing it
+git clean -<span class="keyword">n</span>
+
+# Remove untracked <span class="keyword">files</span> from working directory
+git clean -<span class="keyword">f</span>
+
+# Remove untracked <span class="keyword">files</span> <span class="built_in">and</span> untracked directories from the current directory
+git clean -df
+
+# Remove untracked <span class="keyword">files</span> <span class="keyword">as</span> well <span class="keyword">as</span> any <span class="keyword">files</span> that Git usually ignores
+git clean -xf
+</code></pre><h1 id="12-_git_commit_—amend">12. git commit —amend</h1>
+<p>The <code>git commit --amend</code> command is a convenient way to fix up the most recent commit. It lets you combine staged changes with the previous commit instead of committing it as an entirely new snapshot. It can also be used to simply edit the previous commit message without changing its snapshot.</p>
+<h3 id="Example-11">Example</h3>
+<pre><code># Combine the staged <span class="keyword">changes</span> with the <span class="keyword">previous</span> commit <span class="built_in">and</span> replace the <span class="keyword">previous</span> commit with the resulting snapshot
+git commit --amend
+
+# --<span class="keyword">no</span>-<span class="keyword">edit</span> flag allows you <span class="keyword">to</span> <span class="keyword">make</span> the amendment <span class="keyword">to</span> your commit without changing its commit message
+git commit --amend --<span class="keyword">no</span>-<span class="keyword">edit</span>
+</code></pre><p>Premature commits happen all the time in the course of your everyday development. It’s easy to forget to stage a file or format your commit message the wrong way. The <code>--amend</code> flag is a convenient way to fix these little mistakes.</p>
+<p><strong>While, make sure that you never amend commits that have been pushed to a public repository.</strong></p>
+<h1 id="13-_git_rebase">13. git rebase</h1>
+<p>Rebasing is the process of moving a branch to a new base commit. While internally, Git accomplishes this by creating new commits and applying them to the specified base - it’s literally rewriting your project history.</p>
+<h3 id="Example-12">Example</h3>
+<pre><code><span class="comment"># Rebase the current branch onto &lt;base&gt;, which can be an ID, a branch name, a tag, or a relative reference to HEAD</span>
+git rebase <span class="variable">&lt;base&gt;</span>
+</code></pre><p>The primary reason for rebasing is to maintain a linear project history.</p>
+<p>Rebasing is a common way to integrate upstream changes into your local repository. Pulling in upstream changes with <code>git merge</code> results in a superfluous merge commit every time you want to see how the project has progressed. On the other hand, rebasing is like saying, “I want to base my changes on what everybody has already done”.</p>
+<p><strong>Again, you should never rebase commits that have been pushed to a public repository.</strong></p>
+<h1 id="14-_git_reflog">14. git reflog</h1>
+<p>Git keeps track of updates to the tip of branches using a mechanism called reflog. This allows you to go back to changesets even though they are not referenced by any branch or tag. After rewriting history, the reflog contains information about the old state of branches and allows you to go back to that state if necessary.</p>
+<h4 id="Example-13">Example</h4>
+<pre><code><span class="comment"># Show the reflog for the local repository</span>
+<span class="title">git</span> reflog
+</code></pre><h1 id="15-_git_remote">15. git remote</h1>
+<p>The <code>git remote</code> command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links into other repositories. Instead of providing real-time access to another repository, they serve as convenient names that can be used to reference a not-so-convenient URL.</p>
+<h3 id="Example-14">Example</h3>
+<pre><code><span class="comment"># List the remote connections you have to other repositories</span>
+git remote
+
+<span class="comment"># Create a new connection to a remote repository</span>
+git remote add <span class="variable">&lt;name&gt;</span> <span class="variable">&lt;url&gt;</span>
+
+<span class="comment"># Remove a connection</span>
+git remote rm <span class="variable">&lt;name&gt;</span>
+
+<span class="comment"># Rename a remote connection</span>
+git remote rename <span class="variable">&lt;old-name&gt;</span> <span class="variable">&lt;new-name&gt;</span>
+</code></pre><p>In Git, developers need to manually pull upstream commits into their local repository or manually push their local commits back to the central repository. The <code>git remote</code> command is really just an easier way to pass URLs to these “sharing” commands.</p>
+<h1 id="16-_git_fetch">16. git fetch</h1>
+<p>The <code>git fetch</code> command imports commits from a remote repository into your local repo. The resulting commits are stored as remote branches instead of normal local branches that we’ve been working with.</p>
+<h3 id="Example-15">Example</h3>
+<pre><code><span class="input"><span class="prompt">git fetch &lt;remote&gt;</span> </span>
+</code></pre><p>Fetching is what you do when you want to see what everybody else has been working on. Since fetched content is represented as a remote branch, it has absolutely no effect on your local development work. This makes fetching a safe way to review commits before integrating them with your local repository. It’s similar to <code>svn update</code> in that it lets you see how the central history has progressed, but it doesn’t force you to actually merge the changes into your repository.</p>
+<h1 id="17-_git_pull">17. git pull</h1>
+<p>Merging upstream changes into your local repository is a common task in Git-based collaboration workflows. We already know how to do this with <code>git fetch</code> followed by <code>git merge</code>, but <code>git pull</code> rolls this into a single command.</p>
+<h3 id="Example-16">Example</h3>
+<pre><code><span class="comment"># Fetch the specified remote's copy of the current branch and immediately merge it into the local copy</span>
+git pull <span class="variable">&lt;remote&gt;</span>
+
+<span class="comment"># Use git rebase instead of git merge</span>
+git pull --rebase <span class="variable">&lt;remote&gt;</span>
+</code></pre><p>You can think of <code>git pull</code> as Git’s version of <code>svn update</code>.</p>
+<h1 id="18-_git_push">18. git push</h1>
+<p>Pushing is how you transfer commits from your local repository to a remote repo. It’s the counterpart </p>
+<p>References:<br>[1] <a href="https://www.atlassian.com/git/tutorials/" target="_blank" rel="external">Atlassian Git Tutorial</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="1-_git_init">1. git init</h1>
+<p>The <code>git init</code> command creates a new Git repository. Most of the other Git commands are ]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[What is data breach?]]></title>
+    <link href="https://guangningyu.com/2014/01/25/data-breach/"/>
+    <id>https://guangningyu.com/2014/01/25/data-breach/</id>
+    <published>2014-01-24T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<p>A data breach is an incident in which sensitive, protected or confidential data has potentially been viewed, stolen or used by an individual unauthorized to do so. Data breaches may involve personal health information (PHI), personally identifiable information (PII), trade secrets or intellectual property.</p>
+<p>The most common concept of a data breach is an attacker hacking into a corporate network to steal sensitive data. However, not all data breaches are so dramatic. If an unauthorized hospital employee views a patient’s health information on a computer screen over the shoulder of an anthorized employee, that also constitutes a data breach.</p>
+<p>Reference:<br><a href="http://searchsecurity.techtarget.com/definition/data-breach" target="_blank" rel="external">TechTarget</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>A data breach is an incident in which sensitive, protected or confidential data has potentially been viewed, stolen or used by an individ]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Data Structures vs. Algorithms]]></title>
+    <link href="https://guangningyu.com/2013/12/02/data-structure-vs-algorithm/"/>
+    <id>https://guangningyu.com/2013/12/02/data-structure-vs-algorithm/</id>
+    <published>2013-12-01T16:00:00.000Z</published>
+    <updated>2015-02-25T10:36:15.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>Algorithms are like verbs and data structure are like nouns.</strong><br>You can’t really write anything without both verbs and nouns. Data structures are only interesting because of the algorithms they enable -<br>when we say a hash table has O(1) insertion, what we really mean is that there is an O(1) algorithm to insert someting into a hash table.<br>On the flipside, most algorithms are inexorably tied to some data structure - heap sort only works because you have a heap, and it even has “heap” in the name!</p>
+<p><strong>Algorithms are like how you perform a stunt and data structures are like what you perform on.</strong><br>You want to perform stunts. How you perform a stunt is up to you - you can drift, do a somersault, or stupidly crash into a wall at high speed - this is your algorithm.<br>You can do stunts on a bike (easy), a motorbike (probably doable), a car (sounds hard), a commercial airliner (probably impossible), a spaceship (unthinkable) - these are your data structures.<br>The choice of data structures greatly affects the efficiency, feasibility and simply the elegance your algorithms, as per the above example.</p>
+<p>References:<br>[1] <a href="http://www.quora.com/Whats-the-differences-between-data-structures-and-algorithms" target="_blank" rel="external">What’s the differences between data structures and algorithms?</a><br>[2] <a href="http://www.quora.com/Whats-the-relationship-between-algorithms-and-data-structures" target="_blank" rel="external">What’s the relationship between algorithms and data structures?</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>Algorithms are like verbs and data structure are like nouns.</strong><br>You can’t really write anything without both verbs and n]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Fork and Exec]]></title>
+    <link href="https://guangningyu.com/2013/07/10/fork-exec/"/>
+    <id>https://guangningyu.com/2013/07/10/fork-exec/</id>
+    <published>2013-07-09T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>New processes are created by the two related interfaces fork and exec.</strong></p>
+<h3 id="Fork">Fork</h3>
+<p>When you come to metaphorical “fork in the road”, you generally have two options to take and your decision effects your future. Computer programs reach this fork in the road when they hit the <code>fork()</code> system call.  </p>
+<p>At this point, the operating system will create a new process that is exactly the same as the parent process. This means all the state that was talked about previously is copied, including open files, register state and all memory allocations, which includes the program code.  </p>
+<p>The return value from the system call is the only way the process can determine if it was the existing process or a new one. The return value to the parent process will be the Process ID (PID) of the child, whilst the child will get a return value of 0.  </p>
+<p>At this point, we say the process has forked and we have the parent-child relationship as described above.  </p>
+<h3 id="Exec">Exec</h3>
+<p>Forking provides a way for an existing process to start a new one, but what about the case where the new process is not part of the same program as parent process? This is the case in the shell; when a user starts a command it needs to run in a new process, but it is unrelated to the shell.  </p>
+<p>This is where the exec system call comes into play. exec will replace the contents of the currently running process with the information from a program binary.  </p>
+<p>Thus the process the shell follows when launching a new program is to firstly fork, creating a new process, and then exec (i.e. load into memory and execute) the program binary it is supposed to run.  </p>
+<p>References:<br>[1] <a href="http://www.bottomupcs.com/fork_and_exec.html" target="_blank" rel="external">Computer Science from the Bottom Up</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>New processes are created by the two related interfaces fork and exec.</strong></p>
+<h3 id="Fork">Fork</h3>
+<p>When you come to m]]>
+    </summary>
+    
+      <category term="Unix" scheme="https://guangningyu.com/tags/Unix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[从max函数到lambda表达式]]></title>
+    <link href="https://guangningyu.com/2013/06/10/python-max-function-using-lambda-expression/"/>
+    <id>https://guangningyu.com/2013/06/10/python-max-function-using-lambda-expression/</id>
+    <published>2013-06-09T16:00:00.000Z</published>
+    <updated>2015-03-03T13:36:42.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="1-_浅谈max函数">1. 浅谈max函数</h3>
+<p><strong>max函数的作用是什么？</strong></p>
+<pre><code>max(a, b, c, <span class="keyword">...</span>[, key=func]) -&gt; value
+</code></pre><p>当含有多个参数时，<code>max</code>函数返回其中最大的参数；<br>当含有可迭代的单一参数时，<code>max</code>返回其中最大的一项。</p>
+<p><strong>一个简单的例子</strong></p>
+<p>下面的<code>max</code>函数实现了在players列表中，返回对应最大totalScore值的player实例的功能。</p>
+<pre><code><span class="function"><span class="keyword">def</span> <span class="title">winner</span><span class="params">()</span>:</span>
+    w = max(players, key=<span class="keyword">lambda</span> p:p.totalScore)
+</code></pre><p><strong>key参数的作用是什么？</strong></p>
+<p>在2.x版本中，<code>max</code>函数有一套默认的基于对象类型的<a href="https://docs.python.org/2/reference/expressions.html#not-in" target="_blank" rel="external">比较方法</a>，例如string类型总是大于integer类型。</p>
+<p>如果在比较之前需要修改对象，或者是仅比较对象特定的属性或者索引，那么就要用到<code>key</code>参数了。</p>
+<h3 id="2-_…lambda又是什么？">2. …lambda又是什么？</h3>
+<p><strong><code>lambda</code>表达式本质上是一个匿名函数。</strong></p>
+<p><code>lambda p:p.totalScore</code>等价于</p>
+<pre><code><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">(p)</span>:</span>
+    <span class="keyword">return</span> p.totoalScore
+</code></pre><p>于是例子中的<code>max</code>函数可以理解为</p>
+<pre><code><span class="built_in">max</span>(players, key=<span class="func"><span class="keyword">func</span></span>)
+</code></pre><p>对于<code>max</code>函数而言，<code>key</code>后面接的应该是一个表达式，而非一个定义好的函数，所以这里只能选择使用lambda表达式。</p>
+<h3 id="3-_几个例子">3. 几个例子</h3>
+<p><strong>例1</strong></p>
+<p>下面的列表中包含若干以string格式存储的数值，我们需要找出其中数值最大的一项。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> lis = [<span class="string">'1'</span>, <span class="string">'100'</span>, <span class="string">'111'</span>, <span class="string">'2'</span>]</span>
+</code></pre><p>如果我们直接使用<code>max</code>函数，<code>max</code>函数会默认按照字母序进行比较，所以得到的结果是’2’，并不是我们想要的结果。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(lis)</span>
+<span class="string">'2'</span>
+</code></pre><p>所以在比较之前，我们需要使用<code>lambda</code>表达式进行简单的类型转换，这样我们就可以得到正确的结果了。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(lis, key=lambda <span class="symbol">x:</span>int(x))</span>
+<span class="string">'111'</span>
+</code></pre><p><strong>例2</strong></p>
+<p>用<code>max</code>函数比较包含一组列表的列表（a list of lists），如下所示。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> lis = [[<span class="number">1</span>,<span class="string">'a'</span>], [<span class="number">3</span>,<span class="string">'c'</span>], [<span class="number">4</span>,<span class="string">'e'</span>], [-<span class="number">1</span>,<span class="string">'z'</span>]]</span>
+</code></pre><p>在这种情况下，<code>max</code>函数默认按顺序依次比较子列表中的每一项，来判断大小——如果第一项相同，再比较第二项，以此类推。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(list)</span>
+[<span class="number">4</span>, <span class="string">'e'</span>]
+</code></pre><p>如果需要直接比较第二项来判断大小的话，就需要用到<code>lambda</code>表达式了，如下所示。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(lis, key=lambda <span class="symbol">x:</span>x[<span class="number">1</span>])</span>
+[-<span class="number">1</span>, <span class="string">'z'</span>]
+</code></pre><p><strong>例3</strong></p>
+<p>存在一个Python字典stats，其中key是string类型，对应的值是integer类型，如下所示：</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> stats</span>
+{<span class="string">'a'</span><span class="symbol">:</span><span class="number">1000</span>, <span class="string">'b'</span><span class="symbol">:</span><span class="number">3000</span>, <span class="string">'c'</span><span class="symbol">:</span><span class="number">100</span>}
+</code></pre><p>通过<code>lambda</code>表达式可以获取该字典中的最大值所对应的key，如下所示。</p>
+<pre><code><span class="input"><span class="prompt">&gt;&gt;&gt;</span> max(stats, key=lambda <span class="symbol">x:</span>stats[x[<span class="number">0</span>]])</span>
+<span class="string">'b'</span>
+</code></pre><p>参考资料：<br>[1] <a href="http://stackoverflow.com/questions/18296755/python-max-function-using-key-and-lambda-expression" target="_blank" rel="external">Python max function using ‘key’ and lambda expression</a><br>[2] <a href="http://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary" target="_blank" rel="external">Getting key with maximum value in dictionary?</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="1-_浅谈max函数">1. 浅谈max函数</h3>
+<p><strong>max函数的作用是什么？</strong></p>
+<pre><code>max(a, b, c, <span class="keyword">...</span>[, key=func]]>
+    </summary>
+    
+      <category term="Python" scheme="https://guangningyu.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Everything is a file!]]></title>
+    <link href="https://guangningyu.com/2013/06/02/everything-is-a-file/"/>
+    <id>https://guangningyu.com/2013/06/02/everything-is-a-file/</id>
+    <published>2013-06-01T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<p>An often quoted tenet of UNIX-like systems such as Linux or BSD is <em>everything is a file</em>.  </p>
+<p>Imagine a file in the context something familiar like a word processor. There are two fundamental operations we could use on this imaginary word processing file:  </p>
+<ol>
+<li><p>Read it (exsting saved data from the word processor).  </p>
+</li>
+<li><p>Write to it (new data from the user).  </p>
+</li>
+</ol>
+<p>Consider some of the common things attached to a computer and how they relate to our fundamental file operations:  </p>
+<ol>
+<li><p>The screen  </p>
+</li>
+<li><p>The keyboard  </p>
+</li>
+<li><p>A printer  </p>
+</li>
+<li><p>A CDROM  </p>
+</li>
+</ol>
+<p>The screen and printer are both like a write-only file, but instead of being stored as bits on a disk the information is displayed as dots on a screen or lines on a page. The keyboard is like a read-only file, with the data coming from keystrokes provided by the user. The CDROM is similar, but rather than randomly coming from the user data is stored directly on the disk.  </p>
+<p>Thus the concept of a file is a good <em>abstraction</em> of either a sink for, or source of, data. As such it is an excellent abstraction of all the devices one might attach to the computer. This realisation is the great power of UNIX and is evident across the design of the entire platform. It is one of the fundamental roles of the operating system to provide this abstraction of the hardware to the programmer.  </p>
+<p><strong>It is probably not too much of stretch to say abstraction is the primary concept that underpins all modern computing.</strong> No one person can understand everything from designing a modern user-interface to the internal workings of a modern CPU, much less build it all themselves. To programmers, abstraction are the lingua franca that allows us to collaborate and invent.  </p>
+<p>Reference:<br>[1][Computer Science From The Bottom Up]</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>An often quoted tenet of UNIX-like systems such as Linux or BSD is <em>everything is a file</em>.  </p>
+<p>Imagine a file in the context ]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[How does collections.defaultdict work?]]></title>
+    <link href="https://guangningyu.com/2013/05/13/collections-defaultdict/"/>
+    <id>https://guangningyu.com/2013/05/13/collections-defaultdict/</id>
+    <published>2013-05-12T16:00:00.000Z</published>
+    <updated>2015-02-25T03:19:49.000Z</updated>
+    <content type="html"><![CDATA[<p>Usually, a Python dictionary throws a <code>KeyError</code> if you try to get an item with a key that is not currently in the dictionary. The <code>defaultdict</code> in contrast will simply create any items that you try to access (provided of course they do not exist yet). To create such a <code>default</code> item, it calls the function object that you pass in the constructor (more precisely, it’s an arbitrary “callable” object, which includes function and type objects.) </p>
+<h3 id="Example">Example</h3>
+<p>The code below will throws a <code>KeyError</code>, since <code>3</code> is not one of the keys in <code>somedict</code>.</p>
+<pre><code><span class="attribute">somedict </span>=<span class="string"> {}
+print(somedict[3])</span>
+</code></pre><p>While the code below will print <code>int()</code> instead, which should be <code>0</code>.</p>
+<pre><code><span class="keyword">from</span> collections <span class="keyword">import</span> defaultdict
+somedict = defaultdict(<span class="keyword">int</span>)
+<span class="keyword">print</span>(somedict[<span class="number">3</span>])
+</code></pre><p>Reference:<br>[1] <a href="http://stackoverflow.com/questions/5900578/how-collections-defaultdict-work" target="_blank" rel="external">How collections.defaultdict work</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Usually, a Python dictionary throws a <code>KeyError</code> if you try to get an item with a key that is not currently in the dictionary.]]>
+    </summary>
+    
+      <category term="Python" scheme="https://guangningyu.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[犹太民族：地球上的千年流浪者]]></title>
+    <link href="https://guangningyu.com/2013/03/08/the-jewish-people/"/>
+    <id>https://guangningyu.com/2013/03/08/the-jewish-people/</id>
+    <published>2013-03-07T16:00:00.000Z</published>
+    <updated>2015-02-27T15:59:35.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="0.jpg" alt=""></p>
+<p>犹太人的祖先是希伯来人，属于闪族的一支，是起源于阿拉伯半岛的游牧民族。</p>
+<p>大约生活在公元前2000年的亚伯拉罕（阿拉伯语发音为易卜拉欣）是犹太人和阿拉伯人的共同始祖。亚伯拉罕的孙子雅各后来改名为“以色列”，意思是“和神搏斗的人”。</p>
+<p>公元前11世纪，犹太人在如今的巴勒斯坦地区建立了希伯来王国，后亚述、巴比伦、波斯等国家都曾攻占这片地区。</p>
+<p>公元前1世纪，罗马帝国侵入，绝大部分犹太人流亡世界各地，居无定所。</p>
+<p>公元7世纪，这片土地成为阿拉伯帝国的一部分。阿拉伯人不断移入，并和当地土著居民同化，逐步形成了现代巴勒斯坦阿拉伯人。此后的一千多年，巴勒斯坦一直是由巴勒斯坦阿拉伯人居住，期间曾顽强地抵御了东征的十字军。</p>
+<p>19世纪末，在“犹太复国运动”者策动下，大批犹太人移入巴勒斯坦，与当地阿拉伯人不断发生流血冲突。</p>
+<p>1947年，在美、苏两国的支持下，联合国大会通过决议，决定在巴勒斯坦地区建立犹太国和阿拉伯国。而作为犹太教和伊斯兰教圣地的耶路撒冷则国际化，这对于犹太人和阿拉伯人自然都是无法接受的结果。</p>
+<p>1948年5月，以色列建国。建国伊始，以色列便受到来自阿拉伯世界的攻击——双方于1948年、1956年、1967年、1973年四次发生战争。期间，100多万巴勒斯坦阿拉伯人被赶出世代居住的家园，沦为难民。</p>
+<p>1964年，以阿拉法特为首的巴解组织成立，于是又有了1982年的第五次中东战争。</p>
+<p>2012年11月，以色列对加沙采取大规模军事行动，巴以新一轮冲突又持续了多日。</p>
+<p>这片土地何时能够安详下来，也许只有他们信奉的上帝或者先知能给他们答案。</p>
+<p>值得一提的是，从19世纪末开始，到第二次世界大战结束，很多犹太人为了躲避迫害纷纷投奔哈尔滨，松花江畔的这座新兴城市一度成为远东地区最大的犹太人聚居中心，居住人数最高达到2.5万人。</p>
+<p>目前远东地区最大的犹太人公墓就在哈尔滨，以色列前总理奥尔默特的祖父就葬于此。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="0.jpg" alt=""></p>
+<p>犹太人的祖先是希伯来人，属于闪族的一支，是起源于阿拉伯半岛的游牧民族。</p>
+<p>大约生活在公元前2000年的亚伯拉罕（阿拉伯语发音为易卜拉欣）是犹太人和阿拉伯人的共同始祖。亚伯拉罕的孙子雅各后来改名为“以]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2001太空漫游：一场生命的轮回]]></title>
+    <link href="https://guangningyu.com/2013/03/07/2001-a-space-odyssey/"/>
+    <id>https://guangningyu.com/2013/03/07/2001-a-space-odyssey/</id>
+    <published>2013-03-06T16:00:00.000Z</published>
+    <updated>2015-02-25T11:51:55.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="1.jpg" alt=""></p>
+<p>《2001太空漫游》讲述了史前人类在一块黑石板的召唤下觉醒，催生出了人类文明；而后又在几百万年后出现的又一块黑石板的引导下前往木星探索人类终极意义的故事。与新近上映的《普罗米修斯》相似，都反映了对于人类起源和灵魂归宿的探寻。</p>
+<p>影片作为导演斯坦利.库布里克（同时也是编剧之一）“未来三部曲”（另外两部是《奇爱博士》和《发条橙》）之一，是科幻电影史上里程碑式的作品。库布里克不是高产的导演，而且不同作品涉及的领域跨度极大，但却能够把每种题材都演绎到极致。在这一点上如今的李安身上颇有当年库布里克的风范。</p>
+<p>影片的另外一位编剧是有着“太空时代的桂冠诗人”之称的亚瑟.克拉克，与阿西莫夫和海因莱因并称为“世界科幻三巨头”。在《2001太空漫游》上映的同时，克拉克出版了同名小说。但是由于在某些方面存在分歧，库布里克并没有署名。随后克拉克又续写了《2010太空漫游》《2061太空漫游》《3001太空漫游》三部后作，完成了“太空漫游四部曲”。</p>
+<p>该片于1965年开始拍摄，1968年上映。在当时的那个年代里，人类在1961年才第一次进入太空，阿波罗登月在影片上映1年之后才得以实现。可以说，当时的人类刚刚掀起宇宙神秘的面纱，对于太空中的图景并没有直观的认识。因此，影片中展现的太空图景，以及太空梭、空间站和超级电脑等高科技产物极大地刺激了当时观众的认知，影片丰富的想象力和惊人的预见性给观众带来的震撼效应可见一斑，具体情形可以参考《阿凡达》上映时产生的观影热潮。</p>
+<p>影片在浩渺的宇宙背景和宏大的交响乐的渲染下充满了神秘主义的色彩，石碑、骨棒等符号也让不同的观众有着不同的解读。在笔者看来，石碑的4次出现仿佛4个路标，引导人类从茹毛饮血的“文明婴孩”时代，一步步走向旅途的终点。影片结尾宇航员Dave在石碑的面前化身为自由漂浮于宇宙之中的“星孩”，完成了命运的轮回。</p>
+<p>当然，影片缓慢的节奏也让很多观众昏昏欲睡，尤其是影片开头3分钟的黑暗一度让很多观众认为是设备发生了故障。（不过也有人觉得这3分钟完全的黑暗特牛X，比如大刘。）</p>
+<p>总之，在观看时怀着平静的心态，这是一部你不能错过的电影。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="1.jpg" alt=""></p>
+<p>《2001太空漫游》讲述了史前人类在一块黑石板的召唤下觉醒，催生出了人类文明；而后又在几百万年后出现的又一块黑石板的引导下前往木星探索人类终极意义的故事。与新近上映的《普罗米修斯》相似，都反映了对于人类起源和灵]]>
+    </summary>
+    
+      <category term="Movie" scheme="https://guangningyu.com/tags/Movie/"/>
+    
+      <category term="Si-Fi" scheme="https://guangningyu.com/tags/Si-Fi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[书摘｜1984]]></title>
+    <link href="https://guangningyu.com/2011/11/25/1984/"/>
+    <id>https://guangningyu.com/2011/11/25/1984/</id>
+    <published>2011-11-25T00:19:26.000Z</published>
+    <updated>2015-03-02T00:34:33.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="0.jpg" alt=""></p>
+<ul>
+<li>谁控制过去就控制未来；谁控制现在就控制过去。</li>
+<li>气力输送管 &amp; 忘怀洞</li>
+<li>新话的全部目的是要缩小思想的范围。最后我们要使得大家在实际上不可能犯任何思想罪，因为将来没有词汇可以表达。</li>
+<li>正统即没有意识。</li>
+<li>双重思想意味着在一个人的思想中同时保持并且接受两种相互矛盾的认识和能力。</li>
+<li>双重思想是相信黑就是白的能力，甚至是知道黑就是白和忘掉过去曾经有过相反认识的能力。</li>
+<li>“无产者不是人。”</li>
+<li>战争的基本行为就是毁灭，不一定是毁灭人的生命，而是毁灭人类的劳动产品。 → 如何维持经济的轮子继续转动而又不增加世界上的真正财富。</li>
+<li>统治集团只有在四种情况下才会丧失权力：或是被外部力量所征服；或者是统治无能，群众起来造反；或者是让一个强大而不满的中等人集团出现；或者是自己丧失了统治的信心和意志。</li>
+<li>思想罪不会带来死亡，思想罪本身就是死亡。</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="0.jpg" alt=""></p>
+<ul>
+<li>谁控制过去就控制未来；谁控制现在就控制过去。</li>
+<li>气力输送管 &amp; 忘怀洞</li>
+<li>新话的全部目的是要缩小思想的范围。最后我们要使得大家在实际上不可能犯任何思想罪，因为]]>
+    </summary>
+    
+      <category term="Book" scheme="https://guangningyu.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[书摘｜将心注入]]></title>
+    <link href="https://guangningyu.com/2011/11/20/pour-your-heart-into-it/"/>
+    <id>https://guangningyu.com/2011/11/20/pour-your-heart-into-it/</id>
+    <published>2011-11-20T13:45:36.000Z</published>
+    <updated>2015-03-02T14:07:28.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="1.jpg" alt=""></p>
+<h2 id="第一章_想象，梦想和卑微的出身">第一章 想象，梦想和卑微的出身</h2>
+<ul>
+<li>商界至今还有许多人没有领悟劳方和资方绝非零和游戏的道理。仁慈地对待员工并非就意味着成本增加和利润减少，而是一种强有力的兴奋剂，它使企业达到凭领导者个人能力远远不可能达到的高度。</li>
+<li>只要坚持下去，大多数人都可以实现并超越梦想。我总是鼓励别人把梦做得大些，把基础打得好些，像海绵吸水一样吸收各种信息，不要害怕与传统智慧抵牾。在你还没尝试之前，先不要说做不到。</li>
+</ul>
+<h2 id="第二章_丰盛遗产持续长久">第二章 丰盛遗产持续长久</h2>
+<ul>
+<li>星巴克的精神之父是阿尔弗雷德·皮特，一个向美国人推介了烘焙黑咖啡的荷兰人。</li>
+<li>1971年，这个城市正陷于被称为“波音崩溃”的经济大衰退。从1969年开始，波音公司——西雅图最大的雇主，因为经济不景气而大行裁员，三年里从10万人裁减到不足3.8万人。国会山一带的美丽的社区几乎都搬空了。许多人都失了业，只好搬出西雅图。在靠近飞机场的一块广告牌上有这样一句玩笑话：“最后一个离开西雅图的人——别忘了关灯好吗？”</li>
+<li>1971年4月：星巴克开出第一家店@西雅图</li>
+<li>1970年代之初，少数美国人，尤其西海岸人，开始摒弃袋装或盒装食品，那些加了香料和防腐剂的玩意儿时常让人觉得味儿不正。人们开始选用新鲜蔬菜和鱼类烹制食品，去买新鲜面包，买来新鲜咖啡豆自己研磨。他们拒绝加工食品，喜欢真正的天然食品；拒绝粗劣平庸的食品，追求精良食品——对于星巴克的创办者们来说，所有这一切正中下怀。</li>
+<li>星巴克的创办者们没有研究过市场趋势，他们的心里满是向往——自己的向往——对优质咖啡的向往。</li>
+<li>杰瑞：专业文学；戈登：曾是作家；塞伍：教过历史</li>
+<li><strong>名字的来历：合作者们都同意这个店名要有某种西北部特色。泰瑞查了雷尼尔山矿工村的名字，查到Starbo这个词。在头脑风暴会议上，这个词一来二去就成了星巴克。作为先前的文学爱好者，杰瑞还是要把它跟《白鲸》拉扯到一起：这个星巴克，就是Pequod那条船的第一个伙伴。这个名字牵出了早期咖啡经销商远洋和航海的浪漫情怀。</strong></li>
+<li>对星巴克的创办者来说，优质就是一切。</li>
+<li>咖啡烘焙时间越长，分量就越轻。大烘焙炉时常在面对收缩十分之一还是收缩一半之间斟酌不定。烘焙得越轻，他们就可以省下越多的钱。而星巴克关心风味更甚于产量。</li>
+<li>商业哲学：1.每个公司必须代表某样东西。2.你不能仅仅向顾客提供他们想要的东西。</li>
+</ul>
+<h2 id="第三章_对意大利人来说，浓缩咖啡就像一支咏叹调">第三章 对意大利人来说，浓缩咖啡就像一支咏叹调</h2>
+<ul>
+<li>“你的计划听起来真不错，但这不是我们对星巴克的设想。”</li>
+<li>生活往往是一连串的错失。可是，这里面我们归结为运气的东西，说到底并非完全出于运气。其实，该做的就是抓住当下，为你的未来负责。</li>
+<li>要使人品味生活的浪漫之处，没有比意大利更好的地方了。</li>
+<li>我们要做的首先是打破咖啡吧的神秘和浪漫。意大利人懂得人际关系可以用咖啡来联结，这是社会生活的一个方面。我现在几乎不能相信星巴克是在做咖啡生意了，它忽略了咖啡事业的中心意义。</li>
+</ul>
+<h2 id="第四章_“幸运只在规划后现身”">第四章 “幸运只在规划后现身”</h2>
+<ul>
+<li>我们赶在了北美第一波社会热潮——广泛流行的咖啡馆文化的风口浪尖上。</li>
+<li>1984年，星巴克买下了“皮特的咖啡与茶”。这就像是儿子买下了老子。公司背上了沉重的举债经营的包袱，没有钱来发展和创新了。</li>
+<li>这次事件给了我一个重要的教训：没有什么贵重的商品能比得上公司雇员间的信任和信心。一旦人们觉得管理层奖赏机制不公正，他们就会产生疏离的感觉。</li>
+<li>另一个教训：举债创办公司并非最佳方式。</li>
+<li>1984年4月：第一家浓缩咖啡吧——据我所知，拿铁是这天早晨才被介绍到美国来的。</li>
+<li>离开星巴克</li>
+</ul>
+<h2 id="第五章_说“不”者别想做大事业">第五章 说“不”者别想做大事业</h2>
+<ul>
+<li>只有那些敢于走很少人走的路，创立新事业的人，发明新产品的人，建立持久企业的人，激励自己周围的人发挥自己才能的人，才能踏上成功的制高点。</li>
+<li>如果你不去做一条敢打敢斗的夹紧尾巴的狗，去搏一下机会，那么你就会得到最糟糕的下场：平庸。</li>
+<li>星巴克成了第一个投资人：15万美元</li>
+<li>40万美金种子基金&amp;125万美金开8家店铺</li>
+<li>1986年4月：“天天”第一家店铺@西雅图哥伦比亚中心最高的摩天商务大楼</li>
+<li>在筹集资金的那几年，我和242个人谈过话，其中有217个人说“不”。</li>
+<li>我们对“天天”的设想是重新改造一种商品。我们会让咖啡——这种老掉牙的普通的东西——渗以新的浪漫情怀和人际关系。我们要重新发掘环绕咖啡几世纪之久的迷人特质和神秘气氛。我们要使顾客对咖啡吧的气氛和风格以及知识着迷。</li>
+<li>耐克是与我们有某种可比性的一家公司。耐克的战略方针首先是设计出世界水平的跑步鞋，然后在你周围营造出一种运动人生的极品展示，一种妙趣横生的随心所欲。</li>
+<li>如果你今天问任何一个投资者为什么当年愿意愿意冒这样的风险，所有的人几乎都会告诉你他们投资的是我，不是我的创意。他们信我所信，这是因为他们没有在其他任何人身上见过这样的自信。</li>
+</ul>
+<h2 id="第六章_企业价值的印记">第六章 企业价值的印记</h2>
+<ul>
+<li>当你找到一位搭档，当你挑选你的雇员时，应该选择那些与你有共同的激情和行动目标的人。如果你能与心意相通者共同承担使命，就会产生巨大的冲击力。</li>
+<li>我们全额付款，我们尽一切努力抬升营业额，喝大量的咖啡，吃一大堆食物，要是那些潜在的投资者能看见上升强劲的销售额。这已成为我们一贯的传统，我们在星巴克店里就餐也一概付全价。</li>
+<li>错误：在第一家店里，我们存心要全盘复制意大利风格咖啡吧。渐渐地，我们意识到有许多细节并不适合西雅图，必须让这个店去适合本地顾客的需要。</li>
+<li>1987年4月：第三家“天天”分店开张@大不列颠哥伦比亚省的温哥华——已经走出国门了</li>
+<li>1987年8月，收购星巴克——攥住他们想从你手里挖走的东西</li>
+<li>今天的星巴克就是“天天”。就是1985年成立的那个公司，后于1987年买进了星巴克，更名为星巴克公司。杰瑞和戈登把他们创建的那个星巴克咖啡公司连名字一起卖给了我们。</li>
+</ul>
+<h2 id="第七章_睁着眼睛实践梦想">第七章 睁着眼睛实践梦想</h2>
+<ul>
+<li>在早期的那些岁月里，我在致力于建立他人对我的信任的同时，开始构想一个最终要建成的公司的模样：要在公司里培育出一种以人为本的氛围。这应该是星巴克企业使命的精华所在。</li>
+<li>我想建立的是这样一个公司：它的长期兴旺基于自己的价值观和指导原则的竞争优势。</li>
+</ul>
+<h2 id="第八章_能抓住你想象的东西，同样能使别人着迷">第八章 能抓住你想象的东西，同样能使别人着迷</h2>
+<ul>
+<li>进军芝加哥</li>
+<li>在11家店的基础上，我们在1988财政年度又开出15家新店。</li>
+<li>随着我们的企业越来越引人瞩目，我越来越担心会唤醒那些沉睡着地巨人——那些大一统的垄断性食品公司。</li>
+<li>我们的竞争策略是以最好的咖啡、最好的服务以及最亲切的气氛来赢得顾客。如果可能的话，我们要在每一处市场上都成为最好的一家。</li>
+<li>我们的策略是现在某一处立住脚，在当地造成强势效应，然后向另一处扩张。</li>
+<li>1991年，进军加利福尼亚——“我们去洛杉矶”</li>
+<li>在建立零售品牌时，你必须创造一种吸引人们注意力的最佳方式。你必须成为一种时尚。你得有那些引领潮流的人物为你的产品提供说法。由于时尚方面总是在全国拔得头筹，洛杉矶对全美各地都有一种文化辐射作用，这对于星巴克来说真是一处完美的地方。</li>
+<li>刚烘出的咖啡豆分五磅一包用箔纸裹封运往各地。一旦拆口，新鲜风味开始降低。所以咖啡须在七天内销出，逾时便捐给慈善机构。</li>
+<li>在美国，我们已经处于失去人际交流的危险之中，而对于许多欧洲人来说，这种交流则是日常生活的一部分。</li>
+<li>如何维持店里的气氛？如果顾客吵闹怎么办？</li>
+<li>回到1987年，我们中间没有一个能预见这种人际交往的趋势，也不知道如何接这个招。虽然当时我们所做的一切都是为了吸引那些有资历、有智慧、天性中更闲适自在的潜在顾客，我们给他们提供的音乐和氛围也是我们自己所喜欢的。</li>
+<li>某种程度上的误打误撞</li>
+</ul>
+<h2 id="第九章_人不是串在线上的物件">第九章 人不是串在线上的物件</h2>
+<ul>
+<li>从一开始管理星巴克，我就要使它成为每一个人都愿意为它效力的公司。</li>
+<li>我们于1988年开始为所有的兼职人员支付全额健康福利费用。就我所知，我们是唯一一家这么做的自募基金公司——后来，也是唯一的一家这样做的公开上市公司。这是我们曾经做出过的最好的决定。</li>
+<li>1990年：第一个赢利的年份</li>
+<li>1991年8月：向全体700多名雇员赠送股票</li>
+<li>星巴克使命宣言：<ol>
+<li>提供完善的工作环境，创造相互尊重、相助信任的工作氛围。</li>
+<li>将多元化作为公司经营的基本要素。</li>
+<li>在咖啡产品的购入、烘焙及保险运输过程中，保持最高质量标准。</li>
+<li>永远以热情的服务使顾客满意。</li>
+<li>对我们的社区和人居环境做出积极贡献。</li>
+<li>明确利润增长是公司未来成功的要义所在。</li>
+</ol>
+</li>
+</ul>
+<h2 id="第十章_万丈高楼始于一石一木">第十章 万丈高楼始于一石一木</h2>
+<ul>
+<li>1987年亏了33万美元，第二年达到76.4万美元，第三年亏随1200万美元！</li>
+<li>“我们在做到三件事之前还会有亏损。一是必须超前组件一支适应企业扩张需要的管理团队，二是建立一套世界级水平的烘焙设备，三是我们的电脑信息系统须足以支持成千上万家店面的发展需要。”“我们的投资必须走在成长曲线的前面。”</li>
+<li>保证新开张的每一家店都坐落在有利的地段上，这也成了扩张计划中不断上升的开支。我们瞄准的是最醒目的地段，不是市中心的写字楼，就是人口密集的市内和郊外住宅区，最好靠近超市。</li>
+<li>我们的想法是每一家店都须归属公司，我们不想发展加盟连锁的形式。能与加盟连锁店分担费用这一点虽说很诱人，但我不想失去与顾客联系的重要纽带。</li>
+</ul>
+<h2 id="第十一章_别让比你聪明的人吓倒">第十一章 别让比你聪明的人吓倒</h2>
+<ul>
+<li>从一开始，我就意识到必须眼光向外，聘用比我更有经验的主管人员，他要不怕与我发生争执，有坚强的意志，有独立性和自信心，在管理团队内部能体现共同负责的协作精神。</li>
+<li>在许多做企业的人看来，聘用更有经验更老练的主管多少会有威胁感，对于把权力委托他人亦心存疑虑。就我自己的情况而言，我得承认，这不是一件容易的事儿。</li>
+<li>奥林照看着后院，而我则将目光投向顾客。事后看来，我意识到，后院才是真正得分的地方。</li>
+<li>如果说戴夫·奥尔森代表了我们对咖啡的不可思议的激情和态度，霍华德·贝阿则体现了我们对于合伙人不可思议的激情和态度。如果我听任自己被他吓倒，如果我以自己的准则操纵他或是把他推开去，星巴克永远不可能有今天这般强有力的价值观念。</li>
+</ul>
+<h2 id="第十二章_信条与变通的价值">第十二章 信条与变通的价值</h2>
+<ul>
+<li>在有些事情上，我们拒绝讨价还价：<ol>
+<li>连锁加盟</li>
+<li>人工风味的咖啡豆：我们必须保证绝无化学添加剂来污染我们的优质咖啡豆</li>
+<li>超级市场的销售方式：我们不会把咖啡豆灌进塑料瓶里，因为那不能真正保质</li>
+</ol>
+</li>
+<li>无脂牛奶事件引发了星巴克历史上最大的一次激辩。</li>
+<li>可贵的是对产品品质的那份坚持</li>
+<li>事实上，“特许连锁经营”在星巴克一直是个忌词。对我来说，连锁店主是插在我们和我们的顾客之间的一种人。我们宁愿培训自己的人来运作自己所有的店铺，这样，你从星巴克买到的每一杯咖啡都能保证货真价实。</li>
+<li>1991年，我们决定破一次例，我们和霍斯特·马里奥特为开办机场经营店签署了一份特许协议书。</li>
+<li>星巴克有不到10%的咖啡店是特许加盟的连锁店。</li>
+</ul>
+<h2 id="第十三章_华尔街评估的是公司市值，而非价值">第十三章 华尔街评估的是公司市值，而非价值</h2>
+<ul>
+<li>经验告诉我，谈论价值观是容易的，真要去实践却是困难的，而一个外人要来判定哪些是发自内心的，哪些是橱窗里的摆设，就更困难了。华尔街的市场价值评估不可能把价值观置于其中。</li>
+<li>关键性目的，是想发现哪一家对我们的产品和我们的公司真正具有热情。</li>
+<li>如果要我说出职业生涯中一个最幸福的日子，那就是1992年6月26日，那是我们在纳斯达克公开上市的日子。</li>
+<li>在整个纳斯达克市场上，星巴克是当日第二只最活跃的股票。一亮相就为公司筹集了2900万美元，比预期超出500万美元。到收盘时，星巴克的总市值达到2.73亿美元——仅仅5年前我买下星巴克时，它还不到400万美元。</li>
+<li>与上市的兴奋相偕而来的是另一种被打入地狱的变化，每个季度，每个月，甚至每一天，你都是股市的奴隶。</li>
+</ul>
+<h2 id="第十四章_既然重新创造，何不重塑自己？">第十四章 既然重新创造，何不重塑自己？</h2>
+<ul>
+<li>我们发现，在星巴克邮购咖啡的顾客一般都受过良好的教育，相对比较富裕，喜欢旅行，迷恋高科技，对艺术和其他文化形式有着很高兴趣。这正是我们想要星巴克所具有的品位。</li>
+<li>这门生意看起来没什么准入门槛，似乎人人都可以买进浓缩咖啡机，蒸出牛奶来做出拿铁。而星巴克从来没对这类夫妻老婆店感到有什么威胁。</li>
+<li>Why??</li>
+<li>1994年6月，星巴克以价值2300万美元的股权置换受够了咖啡联谊公司，一夜之间在波士顿处于领先地位。——打入东海岸</li>
+<li>1994年，在我们看来，成为领导北美市场的咖啡零售商，成为风味咖啡的著名品牌，这些目标已是触手可及。于是我们又制定了更大的目标：要打造全球最受瞩目、最受尊重的咖啡品牌。</li>
+<li>1994年，我们推出了新品“法普其诺”。我们和远隔本行业的百事可乐公司签署了合作协议。</li>
+<li>在企业发展的某个阶段，一个企业家必须转向职业经理人的管理方式。早先，我就意识到必须聘用在某些领域里比我更聪明更有资质的人，我必须让他们来作许多决定。我不能告诉你这有多么困难，但如果你已经把你的价值观铭刻在你周围人的心里，你就能够大胆地信任他们去做出正确的举措。</li>
+<li>如果你是一个有创意的人，一个有心的企业家，引进管理体制可能很痛苦，因为它们好像和最初吸引你去做企业的冲动形成一种对照；但你如果不采用正确的程序，如果你不和别人协同筹划，如果你不雇佣有MBA管理技能的人，那么整座大厦就有崩塌的可能。许多企业的情形正是如此。</li>
+<li>1994年6月，董事会和我决定提升奥林·史密斯担负我那一部分日常管理的工作。</li>
+</ul>
+<h2 id="第十五章_别阻挡属下的进取精神">第十五章 别阻挡属下的进取精神</h2>
+<ul>
+<li>1994年收购咖啡联谊公司后，沿用了他们一个名叫“法普奇诺”的产品。我们不喜欢那种饮品，但是那名字实在是妙极了，它把冰镇和卡普奇诺咖啡两者结合到一起，于是我们决定把“法普奇诺”这名字挪用给新饮品。</li>
+<li>在法普奇诺面世之前，我们没有做过任何冗长繁复的财务分析，我们没有雇用一个蓝筹股机构的顾问来提供一份长达上万页的分析材料，我们甚至没有要求主要部门考虑作一个完整的测试。没有任何严厉刻板的章程挡着法普奇诺，这完全是一种自发的行动。这件事说明：就创业精神而言，我们仍然是星巴克，一个走在革新路上的使顾客频频回头，而使竞争对手屡屡不爽的企业。</li>
+<li>卖音乐——蓝调CD。它向顾客传递了这样的信息：我们将继续以独特的方式在咖啡店里推出人们料想不到的产品，给他们以惊喜和快乐。</li>
+</ul>
+<h2 id="第十六章_击出一个漂亮的本垒打之后的自我超越">第十六章 击出一个漂亮的本垒打之后的自我超越</h2>
+<ul>
+<li>在星巴克，我们一直瞄着这样一个目标在努力——建立一个在许多年内都能健康发展的企业。我们发现，要想达到这个目标，自我更新是必须的。</li>
+<li>1994年，星巴克着手它历史上第二次营业模式的变革。第一次是把饮品引入了过去只出售咖啡豆的店堂，那是在1984年。第二次转变在于突破了店铺的四堵墙——我们发明了享受风味咖啡的新样式，包括瓶装咖啡、加冰加奶的饮品和其他的创新产品。</li>
+<li>这真是疯狂：一家咖啡公司，聘用科学家，为研发工作投下数百万美元。</li>
+<li>有相当多的争议集中在冷咖啡的问题上。在日本，人们习惯喝凉的。人们甚至在售货机里买这些玩意。可是在美国，冷咖啡被视为是味道不对头，只配倒进下水道里去的东西。</li>
+<li>瓶装法普奇诺、双重黑啤</li>
+<li>唐·瓦伦西亚的咖啡精华拨开了我的眼睛，使我看到了一种可能：在保持正宗星巴克风味前提下，开发我们忽视已久的多种产品。</li>
+<li>1996年：咖啡冰淇淋</li>
+</ul>
+<h2 id="第十七章_价格危机考验公司价值观">第十七章 价格危机考验公司价值观</h2>
+<ul>
+<li>1994年：巴西严重霜冻，咖啡价格猛涨。巴西的咖啡产量超过世界总产量的四分之一。</li>
+<li>三大咖啡烘焙商，雀巢公司、卡夫食品公司和宝洁公司的罐装咖啡马上就涨价了。他们这三家控制了美国70%的咖啡市场。</li>
+<li>我们不是以提价来冲抵各项成本。我们的控制目标是，在1995年的财务年度里，使价格升幅能补偿实际增加的成本就可以了。</li>
+<li>1995年7月在高位进货</li>
+<li>顺渡难关主要靠的是有条不紊地削减成本，摒弃无效运作，改进工作程序。</li>
+</ul>
+<h2 id="第十八章_建立品牌的最佳方式在于：每一次面对每一个顾客">第十八章 建立品牌的最佳方式在于：每一次面对每一个顾客</h2>
+<ul>
+<li>创建星巴克的品牌，首先靠的是我们的人，而不是消费者——这与饼干与谷类食品公司的做法正相反。</li>
+<li>自1987年以来的10年内，我们在广告上投放了不到一千万美元。这倒并非不相信广告，也不是我们承担不起广告费用，而是因为我们这个企业的驱动力在于产品，在于价值观，在于人本身。</li>
+<li>星巴克的路数有别于宝洁。我们开创的是某种新的东西，我们拓展市场，重新定义市场。</li>
+<li>星巴克的成功证明了这一点：几百万美元的广告并不是打造一个全国知名品牌的必备条件——并不是非得财力雄厚的公司才能去创建品牌。</li>
+<li>现在还适用么？</li>
+<li>品牌特点：咖啡的因素+人的因素+感觉的因素</li>
+<li>在培训中，一位咖啡师傅烹煮的时间如果不到18秒或超过23秒，我们就要求他或她重新来过，直到把烹煮咖啡的时间掌握得分秒不差。</li>
+<li>我们在当地布设一系列店铺之前，总是先选好一处旗舰店址，这个店址必须位于城市繁华地带，借地段优势大张旗鼓地高调行事。</li>
+<li>同时，我们的创意部门则根据每个城市的个性高出艺术设计图。我们把这些图案印在大咖啡杯和T恤上，也印在发给合伙人和顾客的招待会请柬上。</li>
+<li>咖啡店是一种人们自然聚集的场所，所以我们要把星巴克店融入当地的社区氛围。在进入每一处新市场时，我们至少要结合当地的慈善事业策划一个社区活动。</li>
+<li>在每家店开张前，我们将可能成为当地的星巴克“大使”的人士列出一张名单。</li>
+<li>具有讽刺意味的是，一个公司一旦发展到能够砸大钱做广告了，他们所面临的困难就是要消弭人们因公司规模而产生的疏离感。</li>
+</ul>
+<h2 id="第十九章_为两千万新顾客冒险：值！">第十九章 为两千万新顾客冒险：值！</h2>
+<ul>
+<li>与美联航合作</li>
+<li>“如果你根据空气动力学来研究蝴蝶，它不可能会飞起来。正因为蝴蝶不懂这道理，所以它飞了。”</li>
+<li>“如果一壶咖啡在灶具上搁了一个小时了，这会儿一个顾客进来，你会把这样的咖啡卖给他吗？”如果得到的回答是“YES”，那就请他走路吧。</li>
+<li>价值观是不容触碰的原则问题！</li>
+</ul>
+<h2 id="第二十章_做大之后如何保持小企业的优势">第二十章 做大之后如何保持小企业的优势</h2>
+<ul>
+<li>《新闻周刊》上有一篇文章把星巴克和沃尔玛搁在一起比较。</li>
+<li>投顾客所好，事先做好周密筹划——这要比把店开在街对面更重要。</li>
+<li>如果你问星巴克早期员工，他们的工作动力是什么，他们会说那就是亲密的气氛和共同的努力目标。</li>
+<li>我曾觉得市场部是星巴克最重要的部门，但今天想来，我得说，人力资源部的重要性无可比拟。</li>
+<li>她必须把自己从公司创业时期的万金油的角色转变为一个具有专业管理水准的专家。</li>
+</ul>
+<h2 id="第二十一章_企业怎样担负起社会责任？">第二十一章 企业怎样担负起社会责任？</h2>
+<ul>
+<li>关于咖啡农生活水平问题的争议</li>
+<li>双层杯子引起的环保意识上的争议</li>
+</ul>
+<h2 id="第二十二章_怎样避免落入千篇一律的饼干模子">第二十二章 怎样避免落入千篇一律的饼干模子</h2>
+<ul>
+<li>关于票签：我希望这些图案能够凸现一种强烈的视觉信号，这种信号甚至能把唤起的想象一直绵延不绝地持续到咖啡买回家以后。</li>
+<li>我们做出一个成本不菲却能带来长期效益的决定：1991年建立了自己的建筑师和设计师团队，以保证每一爿店都能正确无误地体现我们的形象。</li>
+<li>考虑到那些需要“第三空间”的顾客，我们增加了座椅，并引进了“富丽咖啡”的概念，在旗舰店里装上壁炉、皮椅、长沙发，搁上报纸。蜷曲在壁炉前喝上一杯咖啡，很有点让人心满意足的意思。</li>
+<li>为了不使创意的灵感枯竭，我们建立了一个机密工作室，在西雅图星巴克中心大楼的一个隐秘的角落里，我们聘用了一批艺术家、建筑师和设计师来勾画我们下一代的时尚店铺。很少有人知道这个工作室的存在。只有很少几个人有那儿的钥匙，其他人必须签过保密表格才能获准进入。我们一直把这个计划置于秘密状态，所以当新设计在1996年下半年问世时，人们才感受到一种巨大冲击。</li>
+</ul>
+<h2 id="第二十三章_别人叫你盯住什么，你可别变得近视">第二十三章 别人叫你盯住什么，你可别变得近视</h2>
+<ul>
+<li>以事后的眼光来看，我确信当时与员工坦诚相见是正确的做法。一个公司的头儿，不可能也不应该总是扮演一个拉拉队队长的角色。他必须让他的人员直面痛苦和惨淡之象。</li>
+<li>有一个最让我头痛的问题，我把它称之为“渐变效应”。就是说，在每一个专业部门看来是正确的事情，对整个企业来说却是一场灾难。</li>
+<li>美国已经变成一个零售业过度发达的国家，越来越多的商店窥视着顾客手里越来越少的钞票。</li>
+<li>我就像是航空母舰上的船长，把目光瞄向地平线和迷茫的前方。这一次，我甚至都没理会那艘擦身而过的慢船。</li>
+</ul>
+<h2 id="第二十四章_跟着心灵前行">第二十四章 跟着心灵前行</h2>
+<ul>
+<li>在星巴克——如同在任何企业、任何生活中一样——当我们在某一天只想专心做好这件事时，总会有这样那样的琐事、烦心事来搅局；去什么地方救急，去解决哪个具体问题，弄得我们总是不能专注于真正要做的事情。</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="1.jpg" alt=""></p>
+<h2 id="第一章_想象，梦想和卑微的出身">第一章 想象，梦想和卑微的出身</h2>
+<ul>
+<li>商界至今还有许多人没有领悟劳方和资方绝非零和游戏的道理。仁慈地对待员工并非就意味着成本增加和利润减少，而是]]>
+    </summary>
+    
+      <category term="Book" scheme="https://guangningyu.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[书摘｜利比亚战地日记]]></title>
+    <link href="https://guangningyu.com/2011/11/09/war-in-libya/"/>
+    <id>https://guangningyu.com/2011/11/09/war-in-libya/</id>
+    <published>2011-11-09T13:06:12.000Z</published>
+    <updated>2015-03-02T13:27:20.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="1.jpg" alt=""></p>
+<h2 id="概况">概况</h2>
+<ul>
+<li>因为石油的关系，利比亚是非洲人均GDP最高的国家。</li>
+<li>利比亚的人口只有六百多万，这也使得它成为人均拥有土地面积最高的国家之一。</li>
+</ul>
+<h2 id="历史">历史</h2>
+<ul>
+<li>公元二世纪和三世纪的罗马时代，是利比亚的黄金时代，不过虽然西部和东部讲同样的语言，实行同样的法律体系，都有着罗马人的身份认同，但是的黎波里主要是由迦太基人组成，而东部则是希腊人为主。</li>
+<li>从公元642年到1551年，利比亚在阿拉伯伊斯兰统治下。从1551年到1911年经历了奥特曼王朝。之后是意大利四十年的殖民统治，直到1951年独立，建立利比亚王国。</li>
+<li>1912年到1927年，利比亚被称为意大利北非。1927年到1934年，利比亚领土被分成了东西两块，分别由意大利总督管理。</li>
+<li>利比亚曾经是第一个阿拉伯共和国国家，那是在1919年6月1日，的黎波里共和国成立，并且得到了意大利的承认。这个共和国只存在了一年多。1920年8月，为了解决内战问题，意大利废除了这个称号，的黎波里接受昔兰尼加，也就是现在的利比亚东部的伊迪里斯亲王的统治。伊迪里斯亲王后来成为利比亚独立之后，第一个也是最后一个国王。</li>
+<li>两次世界大战期间，利比亚人开始反抗意大利的殖民统治，代表人物是奥马尔以及之后的塞德努斯国王一世。即便是卡扎菲，也把奥马尔视为国父。</li>
+<li>1959年利比亚发现石油，国家开始变得富裕起来。由于财富分配不均，这使得泛阿拉伯主义和纳赛尔主义开始在北非以及中东地区出现。</li>
+<li>1969年，卡扎菲27岁的时候，作为一个低级军官，和他的同事们一起发动军事政变，推翻了王朝统治，到现在为止，成为统治时间最长的领导人之一。卡扎菲的行动，很大程度上受到了埃及纳赛尔自由军官行动的影响。</li>
+<li>1973年，卡扎菲发表了“污点讲话”，宣布废除利比亚所有的现有法律以及伊斯兰法，因为“人民武装”可以保护革命成果。这就是卡扎菲发动的文化大革命以及行政大革命。</li>
+<li>1977年，由于反对当时的埃及总统萨达特和以色列签署和平条约，卡扎菲攻击埃及，结果导致了一场只有四天的战争，埃及军队攻入利比亚，两国从此断交十二年。</li>
+<li>1988年12月泛美航空103号航班爆炸案，联合国安理会要求利比亚交出八名嫌疑犯，遭到卡扎菲拒绝。1992年开始对利比亚进行制裁。</li>
+<li>2003年萨达姆倒台后，卡扎菲决定放弃大规模杀伤性武器计划，并且拿出30亿美元对两起空难事件的受害者家属进行赔偿。</li>
+<li>2004年，美国取消了对利比亚的经济制裁。</li>
+<li>2005年开始，利比亚开始进行经济体制改革，向市场经济转型。</li>
+<li>2006年2月17日，位于班加西的利比亚意大利使馆门口爆发冲突，十四个平民死亡，这一天被称为“意大利使馆日”，也叫做“愤怒日”。</li>
+<li>2007年10月，利比亚当选联合国安理会成员。</li>
+<li>2011年2月17日，这个事件爆发五周年之后，人们聚集在街头纪念这些被政府军枪杀的民众。结果，这一天成为了这场革命的开始。</li>
+</ul>
+<h2 id="其它">其它</h2>
+<ul>
+<li>1948年5月15日，以色列建国，七十多万巴勒斯坦人丧失了自己的家园。这一天巴勒斯坦人称为NAKBA，也就是灾难日的意思。</li>
+<li>这场中东地区的变革，有的人把它称为第二个阿拉伯之春。第一次阿拉伯之春是从伊朗开始。三十年前，持续了一年的群众示威迫使伊朗国王巴列维在1979年1月16日出走埃及。之后一批伊朗年轻人冲进美国使馆，将美国人抓了起来。这次人质事件持续了444天，最终导致伊朗被国际社会孤立。也使得邻国伊拉克入侵伊朗，由于没有国家愿意提供武器，最终导致伊朗五十万人死亡。</li>
+<li>贝卢斯科尼被认为是和卡扎菲私交最好的西方领导人。意大利四分之一的进口石油来自利比亚，意大利还是利比亚最大的贸易伙伴。</li>
+<li>在经济方面，70年代的卡扎菲允许私人拥有小型企业，所有大型企业则是由政府控制。和它的邻国埃及、突尼斯相比，利比亚的贫富差距并不严重，由于人口少，也不存在就业压力的问题。东西发展不均衡，的黎波里和班加西的城市环境天壤之别。</li>
+<li>卡扎菲选择和非洲交往，疏远阿拉伯国家。</li>
+<li>穆斯林在祈祷的时候，男女是分开的。</li>
+<li>利比亚最大的部落，支持卡扎菲的瓦尔法拉部落有一百万人。有些部落领袖则认为，利比亚没有所谓的部落，只有类似宗族关系的族群。就拿东部的班加西来说，最大的部落叫做阿古里，有20多万人口，24名长老组成理事会共同管理部落事务。这也是部落管理的通用方式。</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="1.jpg" alt=""></p>
+<h2 id="概况">概况</h2>
+<ul>
+<li>因为石油的关系，利比亚是非洲人均GDP最高的国家。</li>
+<li>利比亚的人口只有六百多万，这也使得它成为人均拥有土地面积最高的国家之一。</li>
+</]]>
+    </summary>
+    
+      <category term="Book" scheme="https://guangningyu.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[书摘｜蒋勋的卢浮宫]]></title>
+    <link href="https://guangningyu.com/2011/08/02/xun-s-louvre/"/>
+    <id>https://guangningyu.com/2011/08/02/xun-s-louvre/</id>
+    <published>2011-08-02T00:30:23.000Z</published>
+    <updated>2015-03-02T12:44:56.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="1.jpg" alt=""></p>
+<h2 id="第一章_绪论">第一章 绪论</h2>
+<ul>
+<li>卢浮宫建筑面积60,000多平方米，经常性陈列的文物艺术品多大35,000件。</li>
+<li>巴黎圣母院西面的广场上有一个铜牌，标示着“零”，是巴黎公里计的“零”坐标，也是巴黎城市地理与历史的“零”坐标。</li>
+<li>位置在古老巴黎西北边的卢浮宫，有防卫城市的重要性。</li>
+<li>影响卢浮宫角色很重要的关键人物是16世纪的法国国王弗朗西斯一世。</li>
+<li>达·芬奇在法国逝世，他的几件名作成为弗朗西斯一世的宫廷收藏，也就是卢浮宫目前镇馆之宝的几件达·芬奇名作。</li>
+<li>1674年，路易十四选择凡尔赛为皇宫，放弃卢浮宫。也正因为如此，卢浮宫反而成为路易十四置放皇室艺术品、文物收藏的中心。</li>
+<li>拿破仑时代奠定了目前卢浮宫作为世界著名博物馆的基础。</li>
+<li>1983年，法国总统密特朗批准改建大卢浮的计划，华裔建筑师贝聿铭担任此次改建计划的负责人。</li>
+<li>卢浮宫是文化轴线的起点。</li>
+</ul>
+<h2 id="第二章_埃及">第二章 埃及</h2>
+<ul>
+<li>著名的法国学者商博良解读了罗塞塔石碑，使古埃及文字复活。</li>
+<li>古埃及人常把法老王的头部与狮子的身体结合，表现出上古图腾时代人与兽结合的理想。</li>
+</ul>
+<h2 id="第三章_西亚两河流域文明">第三章 西亚两河流域文明</h2>
+<ul>
+<li>公元前8世纪前后，两河流域文明继巴比伦之后兴起者为强大的亚述帝国。</li>
+<li>公牛是两河流域神性的象征。</li>
+<li>两河流域的文明至公元前6世纪，出现波斯帝国，也就是大家熟悉的与希腊对抗的大流士一世。</li>
+</ul>
+<h2 id="第四章_希腊艺术与罗马艺术">第四章 希腊艺术与罗马艺术</h2>
+<ul>
+<li>1820年，断臂维纳斯的雕像在希腊的米洛岛被发现，落入法国男爵维埃手中，男爵把这件杰作送给当时法国国王路易十八，后来路易十八捐赠给卢浮宫。</li>
+<li>1863年，胜利女神像在爱琴海西北边的小岛萨摩色雷斯出土，因此前面冠上小岛的名称。</li>
+<li>古代希腊信仰胜利女神，也就是希腊文中的“Nike”。通常，在海战中胜利的一方，为了纪念凯旋，会雕一座胜利女神像。希腊人也相信战争的胜利归属于Nike女神保佑的一方，她会展开双翼，飞临胜利者战船上方，轻轻落在船头。这一杰作正是在表现胜利女神飞扬并要落在船头的那一刹那。</li>
+<li>希腊石雕在公元前5世纪时期的气质优雅静穆。到了公元前2世纪左右大希腊化时代，随着希腊各城邦的兼并战争，人体雕像出现一种动态力度的表现。</li>
+</ul>
+<h2 id="第五章_中世纪艺术">第五章 中世纪艺术</h2>
+<ul>
+<li>哥特形式“圣像”传统的特色，强调一切艺术技巧必须服务于《圣经》主题，不可以夸张个人的艺术表现。当时的工匠都必须在虔诚信仰下保持一种谦卑，传达出荣耀神的主题，这是中世纪艺术的最大特质。</li>
+</ul>
+<h2 id="第六章_意大利文艺复兴绘画">第六章 意大利文艺复兴绘画</h2>
+<ul>
+<li>乔托被称为西洋美术的“绘画之父”，他活动在13世纪至14世纪初，已经是中世纪结束的时刻。</li>
+<li>威尼斯画派不同于意大利中部的佛罗伦萨和罗马，相较之前更倾向于商业消费文化的现实性，倾向于华丽物质与感官的享乐追求。</li>
+</ul>
+<h2 id="第七章_佛兰德斯画派">第七章 佛兰德斯画派</h2>
+<ul>
+<li>包括今天比利时、卢森堡以及荷兰一部分在内的佛兰德斯画派，在15世纪以后发展出不同于欧洲南方意大利文艺复兴的艺术形式，以油画为材料，趋向于精密的写实主义。</li>
+</ul>
+<h2 id="第八章_西班牙画派">第八章 西班牙画派</h2>
+<h2 id="第九章_荷兰画派">第九章 荷兰画派</h2>
+<ul>
+<li>伦勃朗是17世纪荷兰最伟大的画家，他一生不断记录自己从青年到衰老的自画像，多达六十几件，收藏在世界各重要博物馆中。</li>
+</ul>
+<h2 id="第十章_日耳曼画派">第十章 日耳曼画派</h2>
+<ul>
+<li>1471年诞生在日耳曼地区纽伦堡的丢勒是文艺复兴时期最重要的北方大师。</li>
+</ul>
+<h2 id="第十一章_法国画派">第十一章 法国画派</h2>
+<ul>
+<li>法国国王亨利四世娶了意大利佛罗伦萨的玛丽皇后，宫廷在强势皇后主导下，充满意大利文艺复兴情调，美学上也极力崇尚文艺复兴的唯美与感官享乐，被称为“第二次的枫丹白露画派”，以有别于较早弗朗索瓦一世崇尚意大利的“第一次枫丹白露画派”。</li>
+<li>洛可可风追求华丽的梦幻之美，追求神话传说的异想世界，追求感官享乐的闲逸慵懒，追求人的肉体与自然田园之美的融合与解放。</li>
+<li>大卫是法国大革命前后最重要的画家，他经历了洛可可艺术到新古典主义的变迁过程，建立19世纪学院派绘画的规则，影响巨大而深远。</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="1.jpg" alt=""></p>
+<h2 id="第一章_绪论">第一章 绪论</h2>
+<ul>
+<li>卢浮宫建筑面积60,000多平方米，经常性陈列的文物艺术品多大35,000件。</li>
+<li>巴黎圣母院西面的广场上有一个铜牌，标示着“零]]>
+    </summary>
+    
+      <category term="Book" scheme="https://guangningyu.com/tags/Book/"/>
+    
+  </entry>
+  
+</feed>

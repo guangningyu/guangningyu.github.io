@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://guangningyu.com/2013/06/10/python-max-function-using-lambda-expression/</loc>
-    <lastmod>2015-03-03T13:36:42.000Z</lastmod>
+    <loc>https://guangningyu.com/storage/index.html</loc>
+    <lastmod>2015-03-03T16:01:37.000Z</lastmod>
   </url>
   
   <url>
-    <loc>https://guangningyu.com/storage/index.html</loc>
-    <lastmod>2015-03-03T13:05:03.000Z</lastmod>
+    <loc>https://guangningyu.com/2014/11/23/newtons-method/</loc>
+    <lastmod>2015-03-03T16:01:02.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guangningyu.com/2013/06/10/python-max-function-using-lambda-expression/</loc>
+    <lastmod>2015-03-03T13:36:42.000Z</lastmod>
   </url>
   
   <url>
@@ -62,12 +67,7 @@
   </url>
   
   <url>
-    <loc>https://guangningyu.com/2013/05/13/collections-defaultdict/</loc>
-    <lastmod>2015-02-25T03:19:49.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guangningyu.com/2014/11/07/define-imminent-enjoy-life/</loc>
+    <loc>https://guangningyu.com/2014/08/08/adding-existing-project-to-github/</loc>
     <lastmod>2015-02-25T03:19:49.000Z</lastmod>
   </url>
   
@@ -82,7 +82,7 @@
   </url>
   
   <url>
-    <loc>https://guangningyu.com/2014/08/08/adding-existing-project-to-github/</loc>
+    <loc>https://guangningyu.com/2013/05/13/collections-defaultdict/</loc>
     <lastmod>2015-02-25T03:19:49.000Z</lastmod>
   </url>
   
@@ -98,6 +98,11 @@
   
   <url>
     <loc>https://guangningyu.com/2013/07/10/fork-exec/</loc>
+    <lastmod>2015-02-25T03:19:49.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guangningyu.com/2014/11/07/define-imminent-enjoy-life/</loc>
     <lastmod>2015-02-25T03:19:49.000Z</lastmod>
   </url>
   

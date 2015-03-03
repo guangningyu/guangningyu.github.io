@@ -181,6 +181,30 @@
   
     
     <li>
+      <h2 class="post-list__post-title post-title"><a href="/2013/06/10/python-max-function-using-lambda-expression/" title="link to post.title">从max函数到lambda表达式</a></h2>
+    <p class="excerpt">
+    
+      1. 浅谈max函数
+max函数的作用是什么？
+max(a, b, c, ...[, key=func]) -&amp;gt; value
+当含有多个参数时，max函数返回其中最大的参数；当含有可迭代的单一参数时，max返回其中最大的一项。
+一个简单的例子
+下面的max函数实现了在players列表中，返回对应最大totalScore值的player实例的功能。
+def winner():
+    w = max(players, key=lambda p:p.totalScore)
+key参数的作用是
+     &hellip;
+    <a class="btn-border-small" href="/2013/06/10/python-max-function-using-lambda-expression/">Keep reading</a>
+      </p>
+      <div class="post-list__meta"><time datetime="2013-06-09T16:00:00.000Z" class="post-list__meta--date date">Jun 10 2013</time> <span class="post-list__meta--tags tags">&nbsp;
+  <a class="-link" href="/tags/Python/">Python</a>
+</span></div>
+
+      <hr class="post-list__divider" />
+    </li>
+  
+    
+    <li>
       <h2 class="post-list__post-title post-title"><a href="/2013/06/02/everything-is-a-file/" title="link to post.title">Everything is a file!</a></h2>
     <p class="excerpt">
     
@@ -387,5 +411,35 @@ Imagine a file in the context something familiar like a word processor. There ar
 	ga('send', 'pageview');
 </script>
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 </body>
 </html>

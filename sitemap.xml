@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://guangningyu.com/2013/05/03/get-real-path/</loc>
+    <lastmod>2015-03-05T16:07:31.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://guangningyu.com/tags/index.html</loc>
     <lastmod>2015-03-05T15:37:15.000Z</lastmod>
   </url>
@@ -42,12 +47,12 @@
   </url>
   
   <url>
-    <loc>https://guangningyu.com/projects/index.html</loc>
+    <loc>https://guangningyu.com/project/index.html</loc>
     <lastmod>2015-03-01T16:09:45.000Z</lastmod>
   </url>
   
   <url>
-    <loc>https://guangningyu.com/project/index.html</loc>
+    <loc>https://guangningyu.com/projects/index.html</loc>
     <lastmod>2015-03-01T16:09:45.000Z</lastmod>
   </url>
   

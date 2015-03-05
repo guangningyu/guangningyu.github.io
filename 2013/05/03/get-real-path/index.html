@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Guangning Yu | from Shanghai, China</title>
+    <title>获取Python脚本的绝对路径 | Guangning Yu</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -16,11 +16,11 @@
     <meta name="description" content="A data analyst">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Guangning Yu | from Shanghai, China">
+    <meta name="twitter:title" content="获取Python脚本的绝对路径 | Guangning Yu">
     <meta name="twitter:description" content="A data analyst"">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Guangning Yu | from Shanghai, China">
+    <meta property="og:title" content="获取Python脚本的绝对路径 | Guangning Yu">
     <meta property="og:description" content="A data analyst"">
 
   
@@ -40,7 +40,7 @@
     <link rel="alternate" type="application/rss+xml" title="Guangning Yu" href="/atom.xml">
     
     
-    <link rel="canonical" href="https://guangningyu.com" />
+    <link rel="canonical" href="https://guangningyu.com/2013/05/03/get-real-path/" />
 
     
 </head>
@@ -166,53 +166,47 @@
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-            <div class="main-post-list">
-    
-  <ol class="post-list">
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2013/05/13/collections-defaultdict/" title="link to post.title">How does collections.defaultdict work?</a></h2>
-    <p class="excerpt">
-    
-      Usually, a Python dictionary throws a KeyError if you try to get an item with a key that is not currently in the dictionary. The defaultdict in contrast will simply create any items that you try to access (provided of course they do not exist yet). T
-     &hellip;
-    <a class="btn-border-small" href="/2013/05/13/collections-defaultdict/">Keep reading</a>
-      </p>
-      <div class="post-list__meta"><time datetime="2013-05-12T16:00:00.000Z" class="post-list__meta--date date">May 13 2013</time> <span class="post-list__meta--tags tags">&nbsp;
+            <article class="post-container post-container--single">
+
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2013-05-02T16:00:00.000Z" class="post-list__meta--date date">May 3 2013</time>  <span class="post-meta__tags tags">&nbsp;
   <a class="-link" href="/tags/Python/">Python</a>
-</span></div>
+</span>
+      <!--<span class="post-meta__author author"><img src="{{author.image}}" alt="profile image for {{author.name}}" class="avatar post-meta__avatar" /> by {{author.name}}</span>-->
+    </div>
+    <h1 class="post-title">获取Python脚本的绝对路径</h1>
+  </header>
 
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2013/05/03/get-real-path/" title="link to post.title">获取Python脚本的绝对路径</a></h2>
-    <p class="excerpt">
-    
-      在编写Python脚本时，为了保证脚本的可移植性，经常需要获取脚本所在的绝对路径。
-方法如下：
-import os
-print os.path.dirname(os.path.realpath(__file__))
-参考资料：[1] Python: How to find script’s directory
+  <section class="post">
+    <p>在编写Python脚本时，为了保证脚本的可移植性，经常需要获取脚本所在的绝对路径。</p>
+<p>方法如下：</p>
+<pre><code>import <span class="built_in">os</span>
+<span class="built_in">print</span> <span class="built_in">os</span>.path.dirname(<span class="built_in">os</span>.path.realpath(__file__))
+</code></pre><p>参考资料：<br>[1] <a href="http://stackoverflow.com/questions/4934806/python-how-to-find-scripts-directory" target="_blank" rel="external">Python: How to find script’s directory</a></p>
 
-     &hellip;
-    <a class="btn-border-small" href="/2013/05/03/get-real-path/">Keep reading</a>
-      </p>
-      <div class="post-list__meta"><time datetime="2013-05-02T16:00:00.000Z" class="post-list__meta--date date">May 3 2013</time> <span class="post-list__meta--tags tags">&nbsp;
-  <a class="-link" href="/tags/Python/">Python</a>
-</span></div>
+  </section>
 
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-  </ol>
+</article>
 
 
+<section class="post-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'guangningyu'; // required: replace example with your forum shortname
+      
 
-</div>
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
 
 
 

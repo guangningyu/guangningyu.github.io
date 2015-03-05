@@ -4,7 +4,7 @@
   <subtitle><![CDATA[from Shanghai, China]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="https://guangningyu.com/"/>
-  <updated>2015-03-05T15:55:16.526Z</updated>
+  <updated>2015-03-05T16:07:47.565Z</updated>
   <id>https://guangningyu.com/</id>
   
   <author>
@@ -591,6 +591,29 @@ somedict = defaultdict(<span class="keyword">int</span>)
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Usually, a Python dictionary throws a <code>KeyError</code> if you try to get an item with a key that is not currently in the dictionary.]]>
+    </summary>
+    
+      <category term="Python" scheme="https://guangningyu.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[获取Python脚本的绝对路径]]></title>
+    <link href="https://guangningyu.com/2013/05/03/get-real-path/"/>
+    <id>https://guangningyu.com/2013/05/03/get-real-path/</id>
+    <published>2013-05-02T16:00:00.000Z</published>
+    <updated>2015-03-05T16:07:31.000Z</updated>
+    <content type="html"><![CDATA[<p>在编写Python脚本时，为了保证脚本的可移植性，经常需要获取脚本所在的绝对路径。</p>
+<p>方法如下：</p>
+<pre><code>import <span class="built_in">os</span>
+<span class="built_in">print</span> <span class="built_in">os</span>.path.dirname(<span class="built_in">os</span>.path.realpath(__file__))
+</code></pre><p>参考资料：<br>[1] <a href="http://stackoverflow.com/questions/4934806/python-how-to-find-scripts-directory" target="_blank" rel="external">Python: How to find script’s directory</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在编写Python脚本时，为了保证脚本的可移植性，经常需要获取脚本所在的绝对路径。</p>
+<p>方法如下：</p>
+<pre><code>import <span class="built_in">os</span>
+<span class="built_in">prin]]>
     </summary>
     
       <category term="Python" scheme="https://guangningyu.com/tags/Python/"/>

@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://guangningyu.com/storage/index.html</loc>
-    <lastmod>2015-03-03T16:01:37.000Z</lastmod>
+    <loc>https://guangningyu.com/tags/index.html</loc>
+    <lastmod>2015-03-05T15:37:15.000Z</lastmod>
   </url>
   
   <url>
@@ -14,11 +14,6 @@
   <url>
     <loc>https://guangningyu.com/2013/06/10/python-max-function-using-lambda-expression/</loc>
     <lastmod>2015-03-03T13:36:42.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://guangningyu.com/input/index.html</loc>
-    <lastmod>2015-03-03T12:49:58.000Z</lastmod>
   </url>
   
   <url>
@@ -47,7 +42,12 @@
   </url>
   
   <url>
-    <loc>https://guangningyu.com/output/index.html</loc>
+    <loc>https://guangningyu.com/projects/index.html</loc>
+    <lastmod>2015-03-01T16:09:45.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://guangningyu.com/project/index.html</loc>
     <lastmod>2015-03-01T16:09:45.000Z</lastmod>
   </url>
   

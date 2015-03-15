@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://guangningyu.com/2015/03/15/scikit-learn-algorithm-cheat-sheet/</loc>
+    <lastmod>2015-03-15T04:27:11.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://guangningyu.com/2015/01/01/she-said-yes/</loc>
     <lastmod>2015-03-05T17:11:12.000Z</lastmod>
   </url>
@@ -87,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://guangningyu.com/2013/06/02/everything-is-a-file/</loc>
+    <loc>https://guangningyu.com/2013/05/13/collections-defaultdict/</loc>
     <lastmod>2015-02-25T03:19:49.000Z</lastmod>
   </url>
   
@@ -102,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://guangningyu.com/2013/05/13/collections-defaultdict/</loc>
+    <loc>https://guangningyu.com/2013/06/02/everything-is-a-file/</loc>
     <lastmod>2015-02-25T03:19:49.000Z</lastmod>
   </url>
   

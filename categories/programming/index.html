@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>scikit-learn算法选择流程图 | Guangning Yu</title>
+    <title>Guangning Yu | from Shanghai, China</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -16,11 +16,11 @@
     <meta name="description" content="A data analyst">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="scikit-learn算法选择流程图 | Guangning Yu">
+    <meta name="twitter:title" content="Guangning Yu | from Shanghai, China">
     <meta name="twitter:description" content="A data analyst"">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="scikit-learn算法选择流程图 | Guangning Yu">
+    <meta property="og:title" content="Guangning Yu | from Shanghai, China">
     <meta property="og:description" content="A data analyst"">
 
   
@@ -40,7 +40,7 @@
     <link rel="alternate" type="application/rss+xml" title="Guangning Yu" href="/atom.xml">
     
     
-    <link rel="canonical" href="https://guangningyu.com/2015/03/15/scikit-learn-algorithm-cheat-sheet/" />
+    <link rel="canonical" href="https://guangningyu.com" />
 
     
 </head>
@@ -71,11 +71,14 @@
           <div>
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-            <li class="navigation__item"><a href="/#blog" class="blog-button">Blog</a></li>
             
-              <li class="navigation__item"><a href="/tags">Tags</a></li>
+              <li class="navigation__item"><a href="/categories/programming">Programming</a></li>
             
-              <li class="navigation__item"><a href="/projects">Projects</a></li>
+              <li class="navigation__item"><a href="/categories/culture">Culture</a></li>
+            
+              <li class="navigation__item"><a href="/categories/thoughts">Thoughts</a></li>
+            
+              <li class="navigation__item"><a href="/categories/life">Life</a></li>
             
             </ul>
           </nav>
@@ -165,46 +168,61 @@
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-            <article class="post-container post-container--single">
+            <div class="main-post-list">
+    
+  <ol class="post-list">
+  
+    
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="/2013/06/10/python-max-function-using-lambda-expression/" title="link to post.title">从max函数到lambda表达式</a></h2>
+    <p class="excerpt">
+    
+      1. 浅谈max函数
+max函数的作用是什么？
+max(a, b, c, ...[, key=func]) -&amp;gt; value
+当含有多个参数时，max函数返回其中最大的参数；当含有可迭代的单一参数时，max返回其中最大的一项。
+一个简单的例子
+下面的max函数实现了在players列表中，返回对应最大totalScore值的player实例的功能。
+def winner():
+    w = max(players, key=lambda p:p.totalScore)
+key参数的作用是
+     &hellip;
+    <a class="btn-border-small" href="/2013/06/10/python-max-function-using-lambda-expression/">Keep reading</a>
+      </p>
+      <div class="post-list__meta"><time datetime="2013-06-09T16:00:00.000Z" class="post-list__meta--date date">Jun 10 2013</time> <span class="post-list__meta--tags tags">&nbsp;
+  <a class="-link" href="/tags/python/">python</a>
+</span></div>
 
-  <header class="post-header">
-    <div class="post-meta">
-      <time datetime="2015-03-14T16:00:00.000Z" class="post-list__meta--date date">Mar 15 2015</time>  <span class="post-meta__tags tags">&nbsp;
-  <a class="-link" href="/tags/MachineLearning/">MachineLearning</a>, <a class="-link" href="/tags/Python/">Python</a>
-</span>
-      <!--<span class="post-meta__author author"><img src="{{author.image}}" alt="profile image for {{author.name}}" class="avatar post-meta__avatar" /> by {{author.name}}</span>-->
-    </div>
-    <h1 class="post-title">scikit-learn算法选择流程图</h1>
-  </header>
+      <hr class="post-list__divider" />
+    </li>
+  
+    
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="/2013/05/03/get-real-path/" title="link to post.title">获取Python脚本的绝对路径</a></h2>
+    <p class="excerpt">
+    
+      在编写Python脚本时，为了保证脚本的可移植性，经常需要获取脚本所在的绝对路径。
+方法如下：
+import os
+print os.path.dirname(os.path.realpath(__file__))
+参考资料：[1] Python: How to find script’s directory
 
-  <section class="post">
-    <p>在任何领域中，针对不同的问题选择最为合适的方法的能力都是至关重要的。</p>
-<p>下面这张流程图来源于scikit-learn的网站，里面总结了如何从问题的最开始一步步地根据问题的具体情况选择相应的解决问题的路线，直至确定最为合适的方法。</p>
-<p><img src="1.png" alt=""></p>
-<p>参考资料：<br><a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/" target="_blank" rel="external">Choosing the right estimator</a></p>
+     &hellip;
+    <a class="btn-border-small" href="/2013/05/03/get-real-path/">Keep reading</a>
+      </p>
+      <div class="post-list__meta"><time datetime="2013-05-02T16:00:00.000Z" class="post-list__meta--date date">May 3 2013</time> <span class="post-list__meta--tags tags">&nbsp;
+  <a class="-link" href="/tags/python/">python</a>
+</span></div>
 
-  </section>
+      <hr class="post-list__divider" />
+    </li>
+  
+    
+  </ol>
 
-</article>
 
 
-<section class="post-comments">
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      var disqus_shortname = 'guangningyu'; // required: replace example with your forum shortname
-      
-
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
-
+</div>
 
 
 

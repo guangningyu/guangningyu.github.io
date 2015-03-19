@@ -195,6 +195,32 @@
   
     
     <li>
+      <h2 class="post-list__post-title post-title"><a href="/2015/02/23/deploy-your-own-vpn-server/" title="link to post.title">Linux环境下的基于PPTP协议的VPN服务器的部署方法</a></h2>
+    <p class="excerpt">
+    
+      1.安装PPTP
+Ubuntu:
+apt-get install pptpd
+CentOS:
+rpm -i http://poptop.sourceforge.net/yum/stable/rhel6/pptp-release-current.noarch.rpm
+yum -y install pptpd
+2.配置PPTP的IP段
+在/etc/pptpd.conf文件中添加如下两行：
+localip 10.0.0.1
+remoteip 10.0.0.100-200
+其中localip是分配给服务
+     &hellip;
+    <a class="btn-border-small" href="/2015/02/23/deploy-your-own-vpn-server/">Keep reading</a>
+      </p>
+      <div class="post-list__meta"><time datetime="2015-02-22T16:00:00.000Z" class="post-list__meta--date date">Feb 23 2015</time> <span class="post-list__meta--tags tags">&nbsp;
+  <a class="-link" href="/tags/network/">network</a>
+</span></div>
+
+      <hr class="post-list__divider" />
+    </li>
+  
+    
+    <li>
       <h2 class="post-list__post-title post-title"><a href="/2014/12/06/how-to-run-c-program-in-unix-console/" title="link to post.title">如何在Unix Console中运行C/C++程序</a></h2>
     <p class="excerpt">
     
@@ -347,29 +373,15 @@ Imagine a file in the context something familiar like a word processor. There ar
     </li>
   
     
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2013/05/03/get-real-path/" title="link to post.title">获取Python脚本的绝对路径</a></h2>
-    <p class="excerpt">
-    
-      在编写Python脚本时，为了保证脚本的可移植性，经常需要获取脚本所在的绝对路径。
-方法如下：
-import os
-print os.path.dirname(os.path.realpath(__file__))
-参考资料：[1] Python: How to find script’s directory
-
-     &hellip;
-    <a class="btn-border-small" href="/2013/05/03/get-real-path/">Keep reading</a>
-      </p>
-      <div class="post-list__meta"><time datetime="2013-05-02T16:00:00.000Z" class="post-list__meta--date date">May 3 2013</time> <span class="post-list__meta--tags tags">&nbsp;
-  <a class="-link" href="/tags/python/">python</a>
-</span></div>
-
-      <hr class="post-list__divider" />
-    </li>
-  
-    
   </ol>
 
+
+  <nav class="pagination" role="navigation">
+    
+    
+      <a class="older-posts pagination__older btn btn-small btn-tertiary" href="/categories/programming/page/2/">Next</a>
+    
+  </nav>
 
 
 </div>

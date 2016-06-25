@@ -140,11 +140,8 @@ hr {
 
 
 
-.panel {
-  display: table;
-  width: 100%;
-  height: 100%;
-}
+
+
 
 .panel__vertical {
   display: table-cell;
@@ -334,7 +331,8 @@ hr {
   height: 35px;
   background: rgba(51, 51, 51, 0.98);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center; }
+  text-align: center;
+}
 
 .btn-mobile-menu__icon,
 .btn-mobile-close__icon {
@@ -540,6 +538,7 @@ input[type="tel"] {
   input[type="tel"]:-ms-input-placeholder {
     color: #cccccc; }
 
+
 @media all and (max-width: 1100px) {
   .panel-cover__logo {
     width: 70px; }
@@ -556,16 +555,18 @@ input[type="tel"] {
 
   .navigation--social {
     margin-top: 5px;
-    margin-left: 0; } }
+    margin-left: 0; }
+}
 
 
 @media all and (max-width: 960px) {
   .btn-mobile-menu {
-    display: block; }
+    display: block;
+  }
 
   .panel-main {
     display: table;
-    position: relative; }
+  }
 
   .panel-cover--collapsed {
     width: 100%;
@@ -614,9 +615,12 @@ input[type="tel"] {
     width: 100%;
     padding: 20px 0;
     background: rgba(51, 51, 51, 0.98);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
-    .navigation-wrapper.visible {
-      display: block; }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .navigation-wrapper.visible {
+    display: block;
+  }
 
   .cover-navigation {
     display: block;
@@ -648,6 +652,7 @@ input[type="tel"] {
   .navigation__item {
     width: 100%;
     margin: 0 0 .4em 0; } }
+
 @media all and (max-width: 340px) {
   .panel-main__inner {
     padding: 0 5%; }

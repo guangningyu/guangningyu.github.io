@@ -1,7 +1,4 @@
 $(document).ready(function() {
-
-    $('body').removeClass('no-js');
-
     $('.btn-mobile-menu__icon').click(function() {
         if ($('.navigation-wrapper').css('display') == "block") {
             $('.navigation-wrapper').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {

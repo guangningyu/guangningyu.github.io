@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="msvalidate.01" content="2F098D9C0F5C72969130CC76A6234072" /> 
+    <meta name="msvalidate.01" content="2F098D9C0F5C72969130CC76A6234072" />
     <meta name="baidu-site-verification" content="Za9MjqbWEP" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="canonical" href="https://guangningyu.com" />
@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css"  href="css/style.css">
 </head>
 
-<body>
+<body class="en">
     <script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
@@ -31,10 +31,13 @@
         <div class="panel-main__inner panel-inverted panel-main__content">
             <div>
                 <a href="/"><img src="images/avatar.jpg" width="130" alt="Guangning Yu logo" class="avatar" /></a>
-                <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for Guangning Yu">Guangning Yu</a></h1>
-                <span class="panel-cover__subtitle panel-subtitle">from Shanghai, China</span>
+                <h1 class="panel-cover__title panel-title" lang="en">Guangning Yu</h1>
+                <h1 class="panel-cover__title panel-title" lang="cn">于广宁</h1>
+                <span class="panel-cover__subtitle panel-subtitle" lang="en">from Shanghai, China</span>
+                <span class="panel-cover__subtitle panel-subtitle" lang="cn">来自中国上海</span>
                 <hr class="panel-cover__divider" />
-                <p class="panel-cover__description">I am a husband, data scientist, history addict, gamification evangelist, vim user and average geek.</p>
+                <p class="panel-cover__description" lang="en">Husband, data scientist, history addict, gamification evangelist, vim user and average geek.</p>
+                <p class="panel-cover__description" lang="cn">数据科学家，历史爱好者，游戏化倡导者，vim用户，极客</p>
                 <hr class="panel-cover__divider panel-cover__divider--secondary" />
             </div>
 
@@ -62,7 +65,7 @@
                                 <span class="label">Blog</span>
                             </a>
                         </li>
-                        
+
                         <!-- Facebook -->
                         <li class="navigation__item">
                             <a href="https://www.facebook.com/yuguangning" target="_blank">
@@ -78,7 +81,7 @@
                                 <span class="label">Instagram</span>
                             </a>
                         </li>
-                        
+
                         <!-- Weibo -->
                         <li class="navigation__item">
                             <a href="http://weibo.com/yuguangning" target="_blank">
@@ -94,7 +97,7 @@
                                 <span class="label">Twitter</span>
                             </a>
                         </li>
-                        
+
                         <!-- Tumblr -->
                         <li class="navigation__item">
                             <a href="http://guangningyu.tumblr.com" target="_blank">
@@ -127,7 +130,7 @@
                                 <span class="label">Github</span>
                             </a>
                         </li>
-                        
+
                         <!-- Meetup
                         <li class="navigation__item">
                             <a href="http://www.meetup.com/members/187515567/" target="_blank">
@@ -143,7 +146,7 @@
                                 <span class="label">WeiDian</span>
                             </a>
                         </li>
-                        
+
                         <!-- WeChat -->
                         <li class="navigation__item">
                             <a href="pages/wechat.html" target="_blank">
@@ -154,7 +157,7 @@
 
                         <!-- Email -->
                         <li class="navigation__item">
-                            <a href="mailto:hi@guangningyu.com" title="邮件联系我" target="_blank">
+                            <a href="mailto:hi@guangningyu.com" target="_blank">
                                 <i class='social fa fa-envelope'></i>
                                 <span class="label">Email</span>
                             </a>
@@ -162,6 +165,11 @@
                     </ul>
                     </nav>
                 </div>
+            </div>
+
+            <div class="lang-buttons">
+                <button class="lang-button" onclick="document.body.className='en'">English</button>
+                <button class="lang-button" onclick="document.body.className='cn'">简体中文</button>
             </div>
         </div>
 

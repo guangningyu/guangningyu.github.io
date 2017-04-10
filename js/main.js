@@ -1,10 +1,11 @@
 $(document).ready(function() {
     $('.btn-mobile-menu__icon').click(function() {
         if ($('.navigation-wrapper').css('display') == "block") {
-            console.log('> bounceOutUp');
             $('.navigation-wrapper').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-              $('.navigation-wrapper').toggleClass('visible animated bounceOutUp');
+                console.log('> bounceOutUp');
+                $('.navigation-wrapper').toggleClass('visible animated bounceOutUp');
             });
+            console.log('> ToggleUpAndDown');
             $('.navigation-wrapper').toggleClass('animated bounceInDown animated bounceOutUp');
         } else {
             console.log('> bounceInDown');
